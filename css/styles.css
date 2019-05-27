@@ -35,7 +35,11 @@ button.accordion:hover {
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
 }
+
+
+
 
 
 /* G.S. - booking styles */
@@ -45,17 +49,8 @@ button.accordion:hover {
 
 
 /* G.S. - Kontakt styles */
-/*Footer*/
-footer {
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: rgba(53,43,43);
-    margin-top: 60px;
-    text-align: center;
-}
+
 
 
 /* Mobile */
