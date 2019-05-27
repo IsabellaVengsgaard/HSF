@@ -46,7 +46,7 @@ button.accordion:hover {
 
 /* G.S. - Kontakt styles */
 /*Footer*/
-footer {
+#kontakt {
 
     display: flex;
     flex-wrap: wrap;
