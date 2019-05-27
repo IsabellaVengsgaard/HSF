@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 
 //script til menusiden mobil hvor der skal slide mere infomation ned når der klikkes
 var accordions = document.getElementsByClassName("accordion");
 
-for (var i = 0 < accordions.length; i++)  {
+for (var i = 0; i < accordions.length; i++) {
     accordions[i].onclick = function () {
         var content =  this.nextElementSibling;
         
