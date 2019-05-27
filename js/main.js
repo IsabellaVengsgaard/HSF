@@ -158,17 +158,17 @@ function getFeaturedImageUrl(post) {
 
 
 //script til menusiden mobil hvor der skal slide mere infomation ned når der klikkes
-var coll = document.getElementsByClassName("collapsible");
+var acc = document.getElementsByClassName("accordion");
 var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
 }
