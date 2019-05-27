@@ -33,6 +33,8 @@ button.accordion:hover {
 
 .accordion-content {
     padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
 }
 
 
