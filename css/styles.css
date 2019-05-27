@@ -1,3 +1,27 @@
+/* Globalstyling */
+
 body {
     font-family: serif;
+}
+
+
+
+/* Mobile */
+@media (min-width:400px){
+    
+    
+}
+
+
+/* Tablet */
+@media (min-width:700px)
+
+
+    
+    /* Desktop */
+@media (min-width:1025px){
+    
+    
+    
+    
 }
