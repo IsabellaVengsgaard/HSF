@@ -47,7 +47,6 @@ button.accordion:hover {
 /* G.S. - Kontakt styles */
 /*Footer*/
 #kontakt {
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -56,6 +55,9 @@ button.accordion:hover {
     margin-top: 60px;
     text-align: center;
 }
+
+
+
 
 
 /* Mobile */
