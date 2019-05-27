@@ -27,6 +27,11 @@ button.accordion {
     transition: background-color 0.2s linear;
 }
 
+button.accordion i{
+    font-size: 14px;
+    float: right;
+}
+
 button.accordion:hover {
     background-color: gainsboro;
 }
@@ -35,6 +40,7 @@ button.accordion:hover {
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
 }
 
 
@@ -45,6 +51,7 @@ button.accordion:hover {
 
 
 /* G.S. - Kontakt styles */
+
 /*Footer*/
 #kontakt {
     display: flex;
@@ -71,6 +78,7 @@ kontakt p {
 #kontakt div{
     padding: 10px;
 }
+
 
 /* Mobile */
 @media (min-width:400px){
