@@ -27,6 +27,11 @@ button.accordion {
     transition: background-color 0.2s linear;
 }
 
+button.accordion i {
+    font-size: 14px;
+    float: right;
+}
+
 button.accordion:hover {
     background-color: gainsboro;
 }
@@ -37,9 +42,6 @@ button.accordion:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
 }
-
-
-
 
 
 /* G.S. - booking styles */
