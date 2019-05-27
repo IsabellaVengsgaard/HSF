@@ -15,30 +15,28 @@ body {
 
 
 /* G.S. - menu styles */
-
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
+button.accordion:hover {
+    background-color: gainsboro;
 }
 
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+.accordion-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
 }
+
 
 /* G.S. - booking styles */
 
