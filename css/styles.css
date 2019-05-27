@@ -54,11 +54,23 @@ button.accordion:hover {
     background-color: rgba(53,43,43);
     margin-top: 60px;
     text-align: center;
+    }
+#kontakt h3{
+    font-size: 15px;
 }
-
-
-
-
+kontakt p {
+    font-size: 10px;
+}
+#kontakt p, h3{
+    color: white;
+}
+#so_melogo {
+    color: white;
+    margin: 5%;
+}
+#kontakt div{
+    padding: 10px;
+}
 
 /* Mobile */
 @media (min-width:400px){
