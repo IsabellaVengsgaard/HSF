@@ -158,7 +158,6 @@ function getFeaturedImageUrl(post) {
 
 
 //script til menusiden mobil hvor der skal slide mere infomation ned når der klikkes
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
