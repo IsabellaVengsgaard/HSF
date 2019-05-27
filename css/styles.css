@@ -27,7 +27,7 @@ button.accordion {
     transition: background-color 0.2s linear;
 }
 
-button.accordion i {
+button.accordion i{
     font-size: 14px;
     float: right;
 }
