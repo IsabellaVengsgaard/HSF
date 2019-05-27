@@ -50,6 +50,19 @@ button.accordion:hover {
 
 /* G.S. - Kontakt styles */
 
+/*Footer*/
+#kontakt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(53,43,43);
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
 
 
 
