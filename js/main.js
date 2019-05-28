@@ -1,4 +1,22 @@
-"use strict";
+'use strict';
+
+
+//script til menusiden mobil hvor der skal slide mere infomation ned når der klikkes
+var accordions = document.getElementsByClassName("accordion");
+
+for (var i = 0; i < accordions.length; i++) {
+    accordions[i].onclick = function () {
+        var content =  this.nextElementSibling;
+        
+        if (content.style.maxHeight) {
+        //accordion is open, we need to close it
+            content.style.maxHeight = null;
+        } else {
+            //accordion is closed
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    }
+}
 
 
 // ---------- default SPA Web App setup ---------- //
@@ -155,3 +173,5 @@ function getFeaturedImageUrl(post) {
   }
   return imageUrl;
 }
+
+
