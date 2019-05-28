@@ -1,5 +1,6 @@
 "use strict";
 
+
 // ---------- default SPA Web App setup ---------- //
 
 // hide all pages
@@ -42,7 +43,7 @@ function setActiveTab(pageId) {
 /*
 Fetches pages json data from my headless cms
 */
-fetch("http://headlesscms.cederdorff.com/wp-json/wp/v2/pages?_embed")
+fetch("http://www.abigaledesign.dk/wordpress/wp-json/wp/v2/posts?_embed")
   .then(function(response) {
     return response.json();
   })
@@ -120,7 +121,7 @@ function appendPersons(persons) {
 Fetches post data from my headless cms
 */
 function getTeachers() {
-  fetch("http://headlesscms.cederdorff.com/wp-json/wp/v2/posts?_embed&categories=2")
+  fetch("http://www.abigaledesign.dk/wp-json/wp/v2/posts?_embed&categories=2")
     .then(function(response) {
       return response.json();
     })

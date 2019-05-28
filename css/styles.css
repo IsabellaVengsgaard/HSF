@@ -20,6 +20,8 @@ body {
 /* G.S. - booking styles */
 
 
+
+
 /* G.S. - anmeldser, nyheder, logoer styles */
 
 
@@ -30,8 +32,8 @@ body {
 
 /* Mobile */
 @media (min-width:400px){
-    
-    
+
+
 }
 
 
@@ -39,11 +41,11 @@ body {
 @media (min-width:700px)
 
 
-    
+
 /* Desktop */
 @media (min-width:1025px){
-    
-    
-    
-    
+
+
+
+
 }
