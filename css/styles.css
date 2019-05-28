@@ -32,6 +32,10 @@ button.accordion i{
     float: right;
 }
 
+.minus {
+    display: none;
+}
+
 button.accordion:hover {
     background-color: gainsboro;
 }
