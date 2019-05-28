@@ -61,7 +61,7 @@ function setActiveTab(pageId) {
 /*
 Fetches pages json data from my headless cms
 */
-fetch("http://www.abigaledesign.dk/wordpress/wp-json/wp/v2/posts?_embed")
+fetch("")
   .then(function(response) {
     return response.json();
   })

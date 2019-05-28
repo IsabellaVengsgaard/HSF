@@ -46,8 +46,25 @@ button.accordion:hover {
 
 /* G.S. - booking styles */
 
+/* G.S. - ornament styles */
+#ornament {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+}
+.orn {
+ max-width: 15%;
+}
 
+.orna {
+ max-width: 15%;
+ padding-left: 25%;
+ padding-right: 25%;
+}
 
+/* G.S. - End of ornament styles */
 
 /* G.S. - anmeldser, nyheder, logoer styles */
 
