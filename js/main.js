@@ -17,16 +17,6 @@ for (var i = 0; i < accordions.length; i++) {
             //accordion is closed
             content.style.maxHeight = content.scrollHeight + "px";
         }
-
-        var plusIcon = document.getElementsByClassName('plus');
-        var minusIcon = document.getElementsByClassName('minus');
-        
-            if (plusIcon.style.display === "none") {
-                plusIcon.style.display = "block";
-                plusIcon.style.float = "right";
-            } else {
-                plusIcon.style.display = "none";
-            }
     }
 }
 

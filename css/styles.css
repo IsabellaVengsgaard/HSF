@@ -1,7 +1,17 @@
 /* Globalstyling */
 
 body {
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montaga', serif;
+    font-size: 20px;
 }
 
 
@@ -16,8 +26,10 @@ body {
 
 /* G.S. - menu styles */
 button.accordion {
-    width: 100%;
-    background-color: whitesmoke;
+    color: white;
+    width: 50%;
+    background-color: rgb(116, 1, 42);
+    border-radius: 100px;
     border: none;
     outline: none;
     text-align: left;
@@ -25,19 +37,17 @@ button.accordion {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.2s linear;
+    display: block;
+    margin: auto;
 }
 
-button.accordion i{
+button.accordion i {
     font-size: 14px;
     float: right;
 }
 
-.minus {
-    display: none;
-}
-
 button.accordion:hover {
-    background-color: gainsboro;
+    background-color: rgb(116, 1, 42);
 }
 
 .accordion-content {
@@ -46,6 +56,13 @@ button.accordion:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
 }
+
+#menusiden h3 {
+    color: black;
+    text-align: center;
+}
+
+
 
 
 /* G.S. - booking styles */
@@ -64,48 +81,43 @@ button.accordion:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(53,43,43);
+    background-color: rgba(53, 43, 43);
     margin-top: 60px;
     text-align: center;
-    }
-#kontakt h3{
+}
+
+#kontakt h3 {
     font-size: 15px;
 }
+
 kontakt p {
     font-size: 10px;
 }
-#kontakt p, h3{
+
+#kontakt p,
+h3 {
     color: white;
 }
+
 #so_melogo {
     color: white;
     margin: 5%;
 }
-#kontakt div{
+
+#kontakt div {
     padding: 10px;
 }
 
 
 /* Mobile */
-@media (min-width:400px){
-
-
-}
+@media (min-width:400px) {}
 
 
 /* Tablet */
 @media (min-width:700px)
 
-
-
 /* Desktop */
-@media (min-width:1025px){
-
-
-
-
-
-}
+@media (min-width:1025px) {}
 
 
 /* footer */
@@ -114,7 +126,7 @@ kontakt p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    }
+}
 
 
 }
