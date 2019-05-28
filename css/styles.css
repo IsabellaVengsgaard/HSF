@@ -95,7 +95,13 @@ kontakt p {
 /* Desktop */
 @media (min-width:1025px){
     
-    
-    
+/* footer */    
+#kontakt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;        
+    }
+   
     
 }
