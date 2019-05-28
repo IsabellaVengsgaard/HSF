@@ -92,6 +92,10 @@ button.accordion:hover {
     transition: max-height 0.2s ease-in-out;
 }
 
+.accordion-content img {
+    width: 100%;
+}
+
 #menusiden h3 {
     color: black;
     text-align: center;
