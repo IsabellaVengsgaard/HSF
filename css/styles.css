@@ -23,6 +23,9 @@ h5 {
 
 /* G.S. - om os styles */
 
+#video {
+    width: 100%;
+}
 
 /* G.S. - menu styles */
 
@@ -38,10 +41,15 @@ h5 {
 .ornamentSectionFlip {
     display: flex;
     transform: scaleY(-1);
+    justify-content: space-between;
 }
 
 .ornamentSectionFlip img {
     width: 70px;
+}
+
+.ornamentSectionFlip.ornamentBlomst {
+    width: 30px;
 }
 
 button.accordion {
