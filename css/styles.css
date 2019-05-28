@@ -4,7 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     background-image: url(/images/mobile-bg.jpg);
-    
+    background-size: contain;
+    background-repeat: repeat-y;
 }
 
 h1,
@@ -84,7 +85,7 @@ button.accordion i {
 }
 
 button.accordion:hover {
-    background-color: rgb(116, 1, 42);
+    background-color: rgb(76, 0, 26);
 }
 
 .accordion-content {
@@ -92,6 +93,10 @@ button.accordion:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-content img {
+    width: 100%;
 }
 
 #menusiden h3 {
