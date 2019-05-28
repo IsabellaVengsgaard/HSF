@@ -1,7 +1,12 @@
 /* Globalstyling */
 
 body {
-    font-family: serif;
+
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-image: url(/images/mobile-bg.jpg);
+
 }
 
 /* G.S. - navigation styles */
@@ -12,8 +17,40 @@ body {
 
 /* G.S. - om os styles */
 
+#video {
+    width: 100%;
+}
 
 /* G.S. - menu styles */
+
+
+.ornamentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ornamentSection img {
+    width: 70px;
+}
+
+.ornamentSection h2 {
+    align-self: center;
+    font-size: 30px !important;
+}
+
+.ornamentSectionFlip {
+    display: flex;
+    transform: scaleY(-1);
+    justify-content: space-between;
+}
+
+.ornamentSectionFlip img {
+    width: 70px;
+}
+
+#ornamentBlomst {
+    width: 50px;
+}
 
 button.accordion {
     color: white;
@@ -51,6 +88,13 @@ button.accordion:hover {
     color: black;
     text-align: center;
 }
+
+
+#menusiden {
+
+}
+
+
 
 /* G.S. - booking styles */
 
