@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     background-image: url(/images/mobile-bg.jpg);
-    
+    background-size: contain;
 }
 
 h1,
