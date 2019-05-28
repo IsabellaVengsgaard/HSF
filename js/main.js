@@ -18,6 +18,7 @@ for (var i = 0; i < accordions.length; i++) {
             content.style.maxHeight = content.scrollHeight + "px";
         }
 
+
         var plusIcon = document.getElementsByClassName('plus');
         var minusIcon = document.getElementsByClassName('minus');
 
@@ -27,6 +28,7 @@ for (var i = 0; i < accordions.length; i++) {
             } else {
                 plusIcon.style.display = "none";
             }
+
     }
 }
 
