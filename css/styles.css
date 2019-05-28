@@ -16,8 +16,10 @@ body {
 
 /* G.S. - menu styles */
 button.accordion {
-    width: 100%;
-    background-color: whitesmoke;
+    color: white;
+    width: 50%;
+    background-color: rgb(116, 1, 42);
+    border-radius: 100px;
     border: none;
     outline: none;
     text-align: left;
@@ -25,6 +27,8 @@ button.accordion {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.2s linear;
+    display: block;
+    margin: auto;
 }
 
 button.accordion i{
@@ -32,12 +36,8 @@ button.accordion i{
     float: right;
 }
 
-.minus {
-    display: none;
-}
-
 button.accordion:hover {
-    background-color: gainsboro;
+    background-color: rgb(116, 1, 42);
 }
 
 .accordion-content {
@@ -46,6 +46,13 @@ button.accordion:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
 }
+
+#menusiden h3 {
+    color: black;
+    text-align: center;
+}
+
+
 
 
 /* G.S. - booking styles */
