@@ -48,6 +48,8 @@ button.accordion:hover {
 /* G.S. - booking styles */
 
 
+
+
 /* G.S. - anmeldser, nyheder, logoer styles */
 
 
@@ -83,8 +85,8 @@ kontakt p {
 
 /* Mobile */
 @media (min-width:400px){
-    
-    
+
+
 }
 
 
@@ -92,11 +94,24 @@ kontakt p {
 @media (min-width:700px)
 
 
-    
+
 /* Desktop */
 @media (min-width:1025px){
-    
-    
-    
-    
+
+
+
+
+
+}
+
+
+/* footer */
+#kontakt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+
 }
