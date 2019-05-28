@@ -3,6 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    background-image: url(/images/mobile-bg.jpg);
+    
 }
 
 h1,
@@ -94,7 +96,8 @@ button.accordion:hover {
     text-align: center;
 }
 
-
+#menusiden {
+}
 
 
 /* G.S. - booking styles */
