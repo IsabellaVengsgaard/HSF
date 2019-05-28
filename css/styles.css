@@ -5,6 +5,7 @@ body {
     margin: 0px;
     background-image: url(/images/mobile-bg.jpg);
     background-size: contain;
+    background-repeat: repeat-y;
 }
 
 h1,
