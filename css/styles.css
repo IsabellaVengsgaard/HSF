@@ -1,7 +1,16 @@
 /* Globalstyling */
 
 body {
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montaga', serif;
+    font-size: 20px;
 }
 
 
@@ -31,7 +40,7 @@ button.accordion {
     margin: auto;
 }
 
-button.accordion i{
+button.accordion i {
     font-size: 14px;
     float: right;
 }
@@ -71,48 +80,43 @@ button.accordion:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(53,43,43);
+    background-color: rgba(53, 43, 43);
     margin-top: 60px;
     text-align: center;
-    }
-#kontakt h3{
+}
+
+#kontakt h3 {
     font-size: 15px;
 }
+
 kontakt p {
     font-size: 10px;
 }
-#kontakt p, h3{
+
+#kontakt p,
+h3 {
     color: white;
 }
+
 #so_melogo {
     color: white;
     margin: 5%;
 }
-#kontakt div{
+
+#kontakt div {
     padding: 10px;
 }
 
 
 /* Mobile */
-@media (min-width:400px){
-
-
-}
+@media (min-width:400px) {}
 
 
 /* Tablet */
 @media (min-width:700px)
 
-
-
 /* Desktop */
-@media (min-width:1025px){
-
-
-
-
-
-}
+@media (min-width:1025px) {}
 
 
 /* footer */
@@ -121,7 +125,7 @@ kontakt p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    }
+}
 
 
 }
