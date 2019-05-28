@@ -38,6 +38,11 @@ h5 {
     width: 70px;
 }
 
+.ornamentSection h2 {
+    align-self: center;
+    font-size: 30px !important;
+}
+
 .ornamentSectionFlip {
     display: flex;
     transform: scaleY(-1);
@@ -48,8 +53,8 @@ h5 {
     width: 70px;
 }
 
-.ornamentSectionFlip.ornamentBlomst {
-    width: 30px;
+#ornamentBlomst {
+    width: 50px;
 }
 
 button.accordion {
