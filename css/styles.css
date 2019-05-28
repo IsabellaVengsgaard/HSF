@@ -25,6 +25,25 @@ h5 {
 
 
 /* G.S. - menu styles */
+
+.ornamentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ornamentSection img {
+    width: 70px;
+}
+
+.ornamentSectionFlip {
+    display: flex;
+    transform: scaleY(-1);
+}
+
+.ornamentSectionFlip img {
+    width: 70px;
+}
+
 button.accordion {
     color: white;
     width: 50%;
