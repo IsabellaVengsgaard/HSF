@@ -1,19 +1,8 @@
 /* Globalstyling */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    font-family: serif;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Montaga', serif;
-    font-size: 20px;
-}
-
 
 /* G.S. - navigation styles */
 
@@ -25,24 +14,6 @@ h5 {
 
 
 /* G.S. - menu styles */
-
-.ornamentSection {
-    display: flex;
-    justify-content: space-between;
-}
-
-.ornamentSection img {
-    width: 70px;
-}
-
-.ornamentSectionFlip {
-    display: flex;
-    transform: scaleY(-1);
-}
-
-.ornamentSectionFlip img {
-    width: 70px;
-}
 
 button.accordion {
     color: white;
@@ -60,7 +31,7 @@ button.accordion {
     margin: auto;
 }
 
-button.accordion i {
+button.accordion i{
     font-size: 14px;
     float: right;
 }
@@ -81,10 +52,8 @@ button.accordion:hover {
     text-align: center;
 }
 
-
-
-
 /* G.S. - booking styles */
+
 
 /* G.S. - ornament styles */
 #ornament {
@@ -104,6 +73,8 @@ button.accordion:hover {
  padding-right: 25%;
 }
 
+
+
 /* G.S. - End of ornament styles */
 
 /* G.S. - anmeldser, nyheder, logoer styles */
@@ -117,43 +88,48 @@ button.accordion:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(53, 43, 43);
+    background-color: rgba(53,43,43);
     margin-top: 60px;
     text-align: center;
-}
-
-#kontakt h3 {
+    }
+#kontakt h3{
     font-size: 15px;
 }
-
 kontakt p {
     font-size: 10px;
 }
-
-#kontakt p,
-h3 {
+#kontakt p, h3{
     color: white;
 }
-
 #so_melogo {
     color: white;
     margin: 5%;
 }
-
-#kontakt div {
+#kontakt div{
     padding: 10px;
 }
 
 
 /* Mobile */
-@media (min-width:400px) {}
+@media (min-width:400px){
+
+
+}
 
 
 /* Tablet */
 @media (min-width:700px)
 
+
+
 /* Desktop */
-@media (min-width:1025px) {}
+@media (min-width:1025px){
+
+
+
+
+
+}
 
 
 /* footer */
@@ -162,7 +138,7 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-}
+    }
 
 
 }
