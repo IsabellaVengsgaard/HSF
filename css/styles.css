@@ -178,8 +178,9 @@ h3 {
 #so-melogo i {
     margin: 5%;
 }
-#footerlogo {
-    
+
+#kontakt div {
+    padding: 20px;
 }
 
 
@@ -192,6 +193,8 @@ h3 {
 
 /* Desktop */
 @media (min-width:1025px) {}
+/*Om os*/
+
 
 /* footer */
 #kontakt {
