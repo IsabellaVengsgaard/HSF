@@ -285,7 +285,15 @@ h3 {
 
 
 /* Desktop */
-@media (min-width:1025px) {
+@media (min-width:1024px) {
+
+    /*Om os*/
+    #omsalonen {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
 
     /*Om os*/
     #omsalonen {
@@ -295,11 +303,22 @@ h3 {
         align-items: flex-start;
         width: 100%;
     }
+
 .video-mask {
     width: 750px;
     border-radius: 30px; 
     overflow: hidden; 
 }    
+
+
+    #video {
+        display: flex;
+        justify-content: center;
+        width: 650px;
+        padding: 10px;
+        border-radius: 45px;
+        overflow: hidden;
+    }
 
     #video {
         width: 650px;
@@ -324,7 +343,7 @@ h3 {
     }
     
     #menusidenDesktop img {
-        width: 40%;
+        width: 300px;
     }
     
     /* footer */
