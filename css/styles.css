@@ -25,12 +25,24 @@ h5 {
 
 
 /* G.S. - om os styles */
-#omos h2{
+
+.hovedSection {
+    display: flex;
+    justify-content: center;
+}
+.hovedSection img {
+    width: 100px;
+}
+#omos h2 {
     color: black;
     text-align: center;
 }
 #video {
     width: 100%;
+}
+#omos p {
+    text-align: center;
+    margin: 50px;
 }
 
 /* G.S. - menu styles */
@@ -157,14 +169,17 @@ button.accordion:hover {
 h3 {
     color: white;
 }
+#kontakt div {
+    padding: 10px;
+}
 #so_melogo {
     color: white;
 }
 #so-melogo i {
     margin: 5%;
 }
-#kontakt div {
-    padding: 10px;
+#footerlogo {
+    
 }
 
 
@@ -173,7 +188,7 @@ h3 {
 
 
 /* Tablet */
-@media (min-width:700px)
+@media (min-width:700px) {}
 
 /* Desktop */
 @media (min-width:1025px) {}
