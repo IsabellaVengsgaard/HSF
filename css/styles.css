@@ -4,13 +4,19 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     background-image: url(/images/mobile-bg.jpg);
-
     background-size: contain;
     background-repeat: repeat-y;
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montaga', serif;
+    font-size: 20px;
 }
+
 
 /* G.S. - navigation styles */
 
@@ -40,7 +46,6 @@ body {
 }
 
 /* G.S. - menu styles */
-
 
 .ornamentSection {
     display: flex;
@@ -86,7 +91,7 @@ button.accordion {
     margin: auto;
 }
 
-button.accordion i{
+button.accordion i {
     font-size: 14px;
     float: right;
 }
@@ -111,10 +116,10 @@ button.accordion:hover {
     text-align: center;
 }
 
-
 #menusiden {
-
+    
 }
+
 
 /* G.S. - booking styles */
 
@@ -124,63 +129,19 @@ button.accordion:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-
+    width: 100%;
 }
 .orn {
  max-width: 15%;
 }
 
 .orna {
- max-width: 12%;
+ max-width: 15%;
  padding-left: 25%;
  padding-right: 25%;
- width: 25%;
 }
+
 /* G.S. - End of ornament styles */
-
-.booking {
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.booking h2{
-     text-align: center;
-    font-family: montaga;
-}
-
-.booking p{
-    font-family: montaga;
-}
-
-input[type=text], select, textarea
-{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-radius: 15px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: rgb(116, 1, 42);
-  color: white;
-  padding: 10px 40px;
-  border: none;
-  border-radius: 100px;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: center;
-}
-
-input[type=submit]:hover {
-  background-color: rgb(116, 1, 42);
-  text-align: center;
-}
-
 
 /* G.S. - anmeldser, nyheder, logoer styles */
 
@@ -193,26 +154,14 @@ input[type=submit]:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(53,43,43);
+    background-color: rgba(53, 43, 43);
     margin-top: 60px;
     text-align: center;
-
-    }
-#kontakt h3{
 }
 #kontakt h3 {
-
     font-size: 15px;
     color: white;
 }
-
-kontakt p {
-    font-size: 10px;
-}
-#kontakt p, h3{
-    color: white;
-}
-
 #kontakt p {
     font-size: 10px;
 }
@@ -222,7 +171,6 @@ kontakt p {
 #kontakt div {
     padding: 10px;
 }
-
 #so_melogo {
     color: white;
 }
@@ -230,25 +178,10 @@ kontakt p {
     margin: 5%;
 }
 
-#footerlogo {}
-
-
-#kontakt div{
-    padding: 10px;
-
-
-#kontakt div {
-    padding: 20px;
-
-}
-
 
 
 /* Mobile */
-@media (min-width:400px){
-
-
-}
+@media (min-width:400px) {}
 
 
 
@@ -258,21 +191,6 @@ kontakt p {
 
 /* Desktop */
 @media (min-width:1025px) {
-
-
-/* Desktop */
-
-@media (min-width:1025px){
-
-
-
-
-
-}
-
-@media (min-width:1025px) {}
-/*Om os*/
-
 
 /*Om os*/
 #omsalonen {
@@ -297,7 +215,7 @@ kontakt p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    }
+}
 
 
 }
