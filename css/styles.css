@@ -165,8 +165,7 @@ button.accordion:hover {
 #kontakt p {
     font-size: 10px;
 }
-#kontakt p,
-h3 {
+#kontakt p, h3 {
     color: white;
 }
 #kontakt div {
@@ -178,23 +177,40 @@ h3 {
 #so-melogo i {
     margin: 5%;
 }
-
-#kontakt div {
-    padding: 20px;
+#footerlogo {
+    
 }
+
 
 
 /* Mobile */
 @media (min-width:400px) {}
 
 
+
 /* Tablet */
 @media (min-width:700px) {}
 
-/* Desktop */
-@media (min-width:1025px) {}
-/*Om os*/
 
+/* Desktop */
+@media (min-width:1025px) {
+
+/*Om os*/
+#omsalonen {
+   display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly; 
+}
+#video {
+    width: 650px;
+    padding: 10px;
+    border-radius: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+} 
+    }
 
 /* footer */
 #kontakt {
