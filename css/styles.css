@@ -5,6 +5,11 @@ body {
     margin: 0px;
     background-image: url(/images/mobile-bg.jpg);
 
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+
 }
 
 /* G.S. - navigation styles */
@@ -15,8 +20,23 @@ body {
 
 /* G.S. - om os styles */
 
+.hovedSection {
+    display: flex;
+    justify-content: center;
+}
+.hovedSection img {
+    width: 100px;
+}
+#omos h2 {
+    color: black;
+    text-align: center;
+}
 #video {
     width: 100%;
+}
+#omos p {
+    text-align: center;
+    margin: 50px;
 }
 
 /* G.S. - menu styles */
@@ -72,7 +92,7 @@ button.accordion i{
 }
 
 button.accordion:hover {
-    background-color: rgb(116, 1, 42);
+    background-color: rgb(76, 0, 26);
 }
 
 .accordion-content {
@@ -80,6 +100,10 @@ button.accordion:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-content img {
+    width: 100%;
 }
 
 #menusiden h3 {
@@ -100,7 +124,7 @@ button.accordion:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-    
+
 }
 .orn {
  max-width: 15%;
@@ -135,7 +159,7 @@ input[type=text], select, textarea
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  border-radius: 15px; 
+  border-radius: 15px;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -172,22 +196,48 @@ input[type=submit]:hover {
     background-color: rgba(53,43,43);
     margin-top: 60px;
     text-align: center;
+
     }
 #kontakt h3{
-    font-size: 15px;
 }
+#kontakt h3 {
+
+    font-size: 15px;
+    color: white;
+}
+
 kontakt p {
     font-size: 10px;
 }
 #kontakt p, h3{
     color: white;
 }
+
+#kontakt p {
+    font-size: 10px;
+}
+#kontakt p,
+h3 {
+    color: white;
+}
+#kontakt div {
+    padding: 10px;
+}
+
 #so_melogo {
     color: white;
+}
+#so-melogo i {
     margin: 5%;
 }
+
 #kontakt div{
     padding: 10px;
+
+
+#kontakt div {
+    padding: 20px;
+
 }
 
 
@@ -199,11 +249,12 @@ kontakt p {
 
 
 /* Tablet */
-@media (min-width:700px)
+@media (min-width:700px) {}
 
 
 
 /* Desktop */
+
 @media (min-width:1025px){
 
 
@@ -211,6 +262,9 @@ kontakt p {
 
 
 }
+
+@media (min-width:1025px) {}
+/*Om os*/
 
 
 /* footer */
