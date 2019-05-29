@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hos Sofies Forældre</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
@@ -19,14 +17,23 @@
 <body>
     <!-- tabbar navigation: Aleksander -->
     <nav id="menu" class="tabbar"></nav>
-    <!-- pages -->
-        <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
 
+
+
+    <!-- pages -->
+
+        <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
+    <section id="forside">
+    <img src="images/mobile-bg-sketch.jpg" alt="Sketch billede af salonen udefra">
+
+
+
+    </section>
 
 
     <!-- dette er Om os til hjemmesiden og her koder:  Marie -->
     <section id="omos">
-    
+
     <div class="ornamentSection"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" id="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
     <div class="hovedSection">
     <img src="images/dame-hoved.svg" alt="HSF ejer dame silluet">
@@ -35,6 +42,7 @@
     <h2>Om Salonen</h2>
     
     <div id="omsalonen">
+
     <div id="salonen_et">
     <p>Velkommen Hos Sofies Forældre. Vi er en mindre Kaffe- og Te Salon, der tilbyder en rolig, hyggelig og hjemlig atmosfære med base i Frederiksgade Aarhus C. Vi er et børnevenlig salon med højt til loftet. Her på stedet har du mulighed for at medbringe dit barn, ude i vores baggård kan du parkerer barnevognen, i salonen har vi lidt legetøj til de små og ude på WC’et  har vi monteret skiftebord. Vi er velbesøgt af mødre, bedsteforældre, studerende og sågar turister som kommer her, for at opleve en autentisk hyggelig stemning.<br></p>
     </div>
@@ -79,25 +87,60 @@
                 <img src="images/menumobil_10.png" alt="Is Og pandekager">
             </div>
             <div class="ornamentSectionFlip"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" id="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
-
-        </section>
+            </section>
 
 
         <!-- dette er booking til hjemmesiden og her koder: Aleksander  -->
 
        <!-- Ornament html kode -->
-
-        <section id="ornament">
+            <section id="ornament">
             <img class="orn" src="images/ornament-venstre.svg" alt="ornament til venstre">
             <img class="orna" src="images/blomst-ornament.svg" alt="blomst ornament">
-            <img class="orn" src="images/ornament-højre.svg" alt="ornament til højre">
+            <img class="orn" src="images/ornament-hjre.svg" alt="ornament til højre">
          </section>
+
+<section class="booking">
+    <h2>Booking</h2>
+    <p>Her har man mulighed for at booke et bord, så er du sikker på at kunne få en plads. </p>
+  <form action="/action_page.php">
+    <label for="fnavn">Fornavn</label>
+    <input type="text" id="fnavn" name="fornavn" placeholder="Dit fornavn">
+
+    <label for="lnavn">Efternavn</label>
+    <input type="text" id="lnavn" name="efternavn" placeholder="Dit efternavn">
+
+    <label for="antal">Vælg antal personer</label>
+      <select id="antal" name="Antal">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+
+
+    <label for="subject">Besked til salonen</label>
+    <textarea id="subject" name="subject" placeholder="Her kan du skrive en besked til salonen.." style="height:200px"></textarea>
+
+    <input type="submit" value="Send">
+
+  </form>
+            </section>
+
 
       <!--Slut af ornament kode -->
 
 
 
-        <section id="nyhder">
+        <section id="nyheder">
 
 
         </section>
@@ -109,7 +152,7 @@
 
 
 
-       
+
 <!-- dette er kontakt infomation til hjemmesiden og her koder:  Marie -->
 <section id="kontakt">
 
@@ -131,7 +174,7 @@
 <h3>Åbningstider</h3>
 <p>Man-Fre 09.00 - 18.00</p>
 <p>Lørdag 10.00 - 16.00</p>
-<p>Søndag 10.00 - 16.00</p>    
+<p>Søndag 10.00 - 16.00</p>
 </div>
 
 <div id="so_melogo">
@@ -140,9 +183,15 @@
 </div>
 
 </section>
-   
+
+
+        </section>
+
+
+
+
     <script src="js/main.js"></script>
-       
+
 </body>
 
 </html>
