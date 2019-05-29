@@ -3,20 +3,27 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-image: url(/images/mobile-bg.jpg);
-
+    background-image: url(../images/mobile-bg.jpg);
     background-size: contain;
     background-repeat: repeat-y;
 }
 
-
+h2 {
+    text-align: center;
+    font-family: montaga;
 }
 
 /* G.S. - navigation styles */
 
 
+
 /* G.S. - forsiden styles */
 
+#forside {
+    background-image: url('../images/mobile-bg-sketch.jpg');
+    background-size: contain;
+    
+}
 
 /* G.S. - om os styles */
 
@@ -141,11 +148,6 @@ button.accordion:hover {
 .booking {
   border-radius: 5px;
   padding: 20px;
-}
-
-.booking h2{
-     text-align: center;
-    font-family: montaga;
 }
 
 .booking p{
