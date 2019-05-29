@@ -315,7 +315,14 @@ h3 {
     #menusidenDesktop {
         display: block;
     }
-
+    #menusidenDesktop h3 {
+         color: black;
+    }
+    
+    #menusidenDesktop img {
+        width: 40%;
+    }
+    
     /* footer */
     #kontakt {
         display: flex;
