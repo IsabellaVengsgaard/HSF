@@ -136,13 +136,13 @@ button.accordion:hover {
     margin-top: 30px;
 }
 
- #menusiden {
-        display: block;
-    }
+#menusiden {
+    display: block;
+}
 
-    #menusidenDesktop {
-        display: none;
-    }
+#menusidenDesktop {
+    display: none;
+}
 
 /* G.S. - booking styles */
 
@@ -256,9 +256,7 @@ h3 {
 
 
 /* Mobile */
-@media (min-width:400px) {
-
-}
+@media (min-width:400px) {}
 
 
 
@@ -295,6 +293,24 @@ h3 {
         flex-direction: row;
         flex-flow: wrap;
         justify-content: space-evenly;
+    }
+
+    /*Om os*/
+    #omsalonen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #video {
+        display: flex;
+        justify-content: center;
+        width: 650px;
+        padding: 10px;
+        border-radius: 45px;
+        overflow: hidden;
     }
 
     #video {
