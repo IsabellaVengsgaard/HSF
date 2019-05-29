@@ -42,16 +42,20 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
 .hovedSection img {
     width: 100px;
 }
+
 #omos h2 {
     color: black;
     text-align: center;
 }
+
 #video {
     width: 100%;
 }
+
 #omos p {
     text-align: center;
     margin: 50px;
@@ -132,6 +136,13 @@ button.accordion:hover {
     margin-top: 30px;
 }
 
+#menusiden {
+    display: block;
+}
+
+#menusidenDesktop {
+    display: none;
+}
 
 /* G.S. - booking styles */
 
@@ -143,55 +154,58 @@ button.accordion:hover {
     align-items: flex-start;
     width: 100%;
 }
+
 .orn {
- max-width: 15%;
+    max-width: 15%;
 }
 
 .orna {
- max-width: 15%;
- padding-left: 25%;
- padding-right: 25%;
+    max-width: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 
- width: 25%;
+    width: 25%;
 }
+
 /* G.S. - End of ornament styles */
 
 .booking {
-  border-radius: 5px;
-  padding: 20px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-.booking p{
+.booking p {
     font-family: montaga;
 }
 
-input[type=text], select, textarea
-{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-radius: 15px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: rgb(116, 1, 42);
-  color: white;
-  padding: 10px 40px;
-  border: none;
-  border-radius: 100px;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: center;
+    background-color: rgb(116, 1, 42);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
 }
 
 input[type=submit]:hover {
-  background-color: rgb(116, 1, 42);
-  text-align: center;
+    background-color: rgb(116, 1, 42);
+    text-align: center;
 
 }
 
@@ -212,22 +226,29 @@ input[type=submit]:hover {
     margin-top: 60px;
     text-align: center;
 }
+
 #kontakt h3 {
     font-size: 15px;
     color: white;
 }
+
 #kontakt p {
     font-size: 10px;
 }
-#kontakt p, h3 {
+
+#kontakt p,
+h3 {
     color: white;
 }
+
 #kontakt div {
     padding: 10px;
 }
+
 #so_melogo {
     color: white;
 }
+
 #so-melogo i {
     margin: 5%;
 }
@@ -241,59 +262,67 @@ input[type=submit]:hover {
 
 /* Tablet */
 @media (min-width:700px) {
-    
+
     /*styles til menuside - tablet*/
-    .accordion-content img{
+    .accordion-content img {
         display: block;
         width: 60%;
         margin: auto;
     }
-    
-    .ornamentSection, .ornamentSectionFlip {
+
+    .ornamentSection,
+    .ornamentSectionFlip {
         margin-right: 30px;
         margin-left: 30px;
     }
-    
+
     button.accordion {
         width: 45%;
     }
-    
-    
+
+
 }
 
 
 /* Desktop */
 @media (min-width:1025px) {
 
-/*Om os*/
-#omsalonen {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.video-mask {
-    width: 750px;
-    border-radius: 30px; 
-    overflow: hidden; 
-}    
-#video {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
+    /*Om os*/
+    #omsalonen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
     }
-    
-        }
 
-/* footer */
-#kontakt {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
+    #video {
+        width: 650px;
+        padding: 10px;
+        border-radius: 45px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*styles til menu -desktop*/
+
+    #menusiden {
+        display: none;
+    }
+
+    #menusidenDesktop {
+        display: block;
+    }
+
+    /* footer */
+    #kontakt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
 
 }
