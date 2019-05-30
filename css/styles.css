@@ -477,7 +477,9 @@ h3 {
     display: none;
 }
 
-
+i {
+    color: white;
+}
 
 /* Mobile */
 @media (min-width:400px) {}
@@ -528,6 +530,7 @@ h3 {
         width: 100%;
     }
 
+
     .video-mask {
         width: 750px;
         border-radius: 30px;
@@ -547,6 +550,16 @@ h3 {
 
     /*styles til menu -desktop*/
 
+    
+.video-mask {
+    width: 750px;
+    border-radius: 30px; 
+    overflow: hidden;
+    
+} 
+
+
+    /*styles til menu - desktop*/
     #menusiden {
         display: none;
     }
@@ -593,7 +606,12 @@ h3 {
         justify-content: center;
     }
 
+
     /* footer */
+
+    
+    /* footer - desktop */
+
     #kontakt {
         display: flex;
         flex-wrap: wrap;
