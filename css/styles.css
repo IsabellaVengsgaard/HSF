@@ -24,15 +24,21 @@ h5 {
 
 
 /* G.S. - navigation styles */
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer img {
+    width: 60px;
+}
+
 .forside-billede {
 	width: 100%;
-	position: relative;
-	z-index: -2;
-	
 }
 
 .nav {
-	margin-top: -740px;
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
@@ -90,8 +96,6 @@ label {
     
     
 }
-
-
 
 
 
