@@ -295,15 +295,8 @@ h3 {
     }
     
     
-    /*Om os*/
-    #omsalonen {
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
-    }
 
-    /*Om os*/
+    /*Om os - desktop*/
     #omsalonen {
         display: flex;
         flex-direction: row;
