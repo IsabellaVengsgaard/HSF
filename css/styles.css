@@ -24,15 +24,21 @@ h5 {
 
 
 /* G.S. - navigation styles */
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer img {
+    width: 60px;
+}
+
 .forside-billede {
 	width: 100%;
-	position: relative;
-	z-index: -2;
-	
 }
 
 .nav {
-	margin-top: -740px;
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
@@ -90,8 +96,6 @@ label {
     
     
 }
-
-
 
 
 
@@ -457,7 +461,9 @@ h3 {
     display: none;
 }
 
-
+i {
+    color: white;
+}
 
 /* Mobile */
 @media (min-width:400px) {}
@@ -526,7 +532,6 @@ h3 {
 
 
     /*styles til menu -desktop*/
-
     #menusiden {
         display: none;
     }
@@ -569,7 +574,7 @@ h3 {
         justify-content: center;
     }
     
-    /* footer */
+    /* footer - desktop */
     #kontakt {
         display: flex;
         flex-wrap: wrap;
