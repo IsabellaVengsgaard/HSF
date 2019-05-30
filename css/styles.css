@@ -390,7 +390,9 @@ h3 {
     display: none;
 }
 
-
+i {
+    color: white;
+}
 
 /* Mobile */
 @media (min-width:400px) {}
@@ -457,7 +459,6 @@ h3 {
 
 
     /*styles til menu -desktop*/
-
     #menusiden {
         display: none;
     }
@@ -478,7 +479,7 @@ h3 {
         width: 80px !important;
     }
     
-    /* footer */
+    /* footer - desktop */
     #kontakt {
         display: flex;
         flex-wrap: wrap;
