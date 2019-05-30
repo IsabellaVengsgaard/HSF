@@ -25,16 +25,36 @@ h5 {
 
 /* G.S. - navigation styles */
 
-.postionStuff {
-    display: flex;
-}
 
 .forsideImage {
     width: 100%;
+    z-index: -1;
+    position: relative;
 }
 
 .navContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.menuMobildiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
+}
+
+.onTop,
+.menuMobildiv {
+    margin-right: 8%;
+}
+
+.logoFlex {
+    margin-left: 5%;
 }
 
 .navContainer img {
@@ -507,6 +527,16 @@ i {
     }
 
 
+    /*menu- burger så den stadig er henover flaget*/
+    .menuMobildiv {
+        margin-top: 2%;
+    }
+
+    .logoFlex {
+        width: 300px;
+    }
+
+
 }
 
 
@@ -550,13 +580,13 @@ i {
 
     /*styles til menu -desktop*/
 
-    
-.video-mask {
-    width: 750px;
-    border-radius: 30px; 
-    overflow: hidden;
-    
-} 
+
+    .video-mask {
+        width: 750px;
+        border-radius: 30px;
+        overflow: hidden;
+
+    }
 
 
     /*styles til menu - desktop*/
@@ -609,7 +639,7 @@ i {
 
     /* footer */
 
-    
+
     /* footer - desktop */
 
     #kontakt {
@@ -622,5 +652,4 @@ i {
     #footerlogo {
         display: block;
     }
-
 }
