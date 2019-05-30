@@ -45,12 +45,13 @@ h5 {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 5%;
+    padding-right: 5px;
+    margin-top: 4%;
 }
 
 .onTop,
 .menuMobildiv {
-    margin-right: 8%;
+    margin-right: 10%;
 }
 
 .logoFlex {
@@ -58,7 +59,7 @@ h5 {
 }
 
 .navContainer img {
-    width: 60px;
+    width: 70px;
 }
 
 .forsideBillede {
@@ -532,8 +533,9 @@ i {
         margin-top: 2%;
     }
 
-    .logoFlex {
-        width: 300px;
+    img.logoFlex {
+        width: 300px !important;
+        margin-left: -10%;
     }
 
 
@@ -549,7 +551,10 @@ i {
         background-repeat: repeat-y;
     }
 
-
+/*navbar til mobil styles*/
+    img.logoFlex {
+        margin-left: -5%;
+    }
 
     /*Om os - desktop*/
     #omsalonen {
