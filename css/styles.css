@@ -477,15 +477,28 @@ h3 {
     }
     
     .ornamentSection img {
-        width: 80px !important;
+        width: 75px !important;
     }
     .ornamentSectionFlip img {
-         width: 80px !important;
+         width: 75px !important;
     }
     
-    .menuContainer {
+    .accordion-content {
         display: flex;
         flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .accordion-content div {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .accordion-content img {
+        margin: 20px;
+    }
+    .menuContainer {
+        display: flex;
         justify-content: center;
     }
     
