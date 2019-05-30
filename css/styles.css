@@ -6,7 +6,6 @@ body {
 
     background-image: url(../images/mobile-bg.jpg);
 
-    background-image: url(/images/mobile-bg.jpg);
 
     background-size: contain;
     background-repeat: repeat-y;
@@ -25,6 +24,78 @@ h5 {
 
 
 /* G.S. - navigation styles */
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer img {
+    width: 60px;
+}
+
+.forside-billede {
+	width: 100%;
+}
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+span {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+	
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+		
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
+}
 
 
 
@@ -427,7 +498,9 @@ i {
 @media (min-width:1020px) {
 
     body {
-        background-image: url(/images/desktop-bg.jpg)
+        background-image: url(/images/bg-web-stor.jpg);
+        background-size: contain;
+        background-repeat: repeat-y;
     }
     
     
@@ -476,7 +549,29 @@ i {
     }
     
     .ornamentSection img {
-        width: 80px !important;
+        width: 75px !important;
+    }
+    .ornamentSectionFlip img {
+         width: 75px !important;
+    }
+    
+    .accordion-content {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .accordion-content div {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .accordion-content img {
+        margin: 20px;
+    }
+    .menuContainer {
+        display: flex;
+        justify-content: center;
     }
     
     /* footer - desktop */
