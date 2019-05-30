@@ -288,7 +288,9 @@ h3 {
 @media (min-width:1020px) {
 
     body {
-        background-image: url(/images/desktop-bg.jpg)
+        background-image: url(/images/bg-web-stor.jpg);
+        background-size: contain;
+        background-repeat: repeat-y;
     }
     
     
@@ -354,6 +356,15 @@ h3 {
     
     .ornamentSection img {
         width: 80px !important;
+    }
+    .ornamentSectionFlip img {
+         width: 80px !important;
+    }
+    
+    .menuContainer {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
     }
     
     /* footer */
