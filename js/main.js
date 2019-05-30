@@ -1,5 +1,13 @@
 'use strict';
+//menu close and open 
 
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
 
 //script til menusiden mobil hvor der skal slide mere infomation ned når der klikkes
 var accordions = document.getElementsByClassName("accordion");
@@ -28,7 +36,6 @@ for (var i = 0; i < accordions.length; i++) {
             } else {
                 plusIcon.style.display = "none";
             }
-
     }
 }
 

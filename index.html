@@ -17,24 +17,30 @@
 <body>
     <!-- tabbar navigation: Aleksander -->
 
-    <img class="forside-billede" src="images/mobile-bg-sketch.jpg">
-    <div class="navContainer">
-        <img src="images/hsf-logo.svg" alt="">
-        <div class="nav">
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" />
-            <div class="menu">
-                <a href="#">Business</a>
-                <a href="#">Services</a>
-                <a href="#">Learn More</a>
-                <a href="#"><span>Free Trial</span></a>
+    <div class="postionStuff">
+        <div class="forsideImage">
+            <img class="forsideBillede" src="images/mobile-bg-sketch.jpg">
+        </div>
+        <div class="navContainer">
+            <img src="images/hsf-logo.svg" alt="" class="logoFlex">
+            <div class="onTop">
+                <img src="images/nav-icon.png" alt="">
+                <div class="menuMobildiv">
+                    <span class="menuButton" onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="#" data-target="home" class="nav-link" onclick="closeNav()">Portfolio</a>
+                            <a href="#" data-target="about" class="nav-link" onclick="closeNav()">Om Mig</a>
+                            <a href="#" data-target="contact" class="nav-link" onclick="closeNav()">Kontakt</a>
+                            <a href="#" data-target="contact" class="nav-link" onclick="closeNav()">Kontakt</a>
+                            <a href="#" data-target="contact" class="nav-link" onclick="closeNav()">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-    <!-- pages -->
-
     <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
     <section id="forside">
 

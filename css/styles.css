@@ -25,78 +25,91 @@ h5 {
 
 /* G.S. - navigation styles */
 
-.navContainer {
+.postionStuff {
     display: flex;
-    flex-direction: row;
+}
+
+.forsideImage {
+    width: 100%;
+}
+
+.navContainer {
+    position: absolute;
 }
 
 .navContainer img {
     width: 60px;
 }
 
-.forside-billede {
-	width: 100%;
+.forsideBillede {
+    width: 100%;
 }
 
-.nav {
-    border-bottom: 1px solid #EAEAEB;
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
+.menuButton {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-right: 15px;
+    margin-top: 10px;
 }
-.menu {
-    margin: 0 30px 0 0;
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background-color: rgba(233, 179, 179, 0.7);
+    overflow-y: hidden;
+    transition: 0.5s;
 }
-.menu a {
-    clear: right;
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
     text-decoration: none;
-    color: gray;
-    margin: 0 10px;
-    line-height: 70px;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
 }
 
-span {
-    color: #54D17A;
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
 }
 
-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-	
-}
-#toggle {
-    display: none;
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
-
-@media only screen and (max-width: 500px) {
-    label {
-        display: block;
-        cursor: pointer;
-		
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
     }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-     
-    }
-    #toggle:checked + .menu {
-        display: block;
-    }
-    
-    
-}
 
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
 
 
 /* G.S. - forsiden styles */
@@ -287,125 +300,127 @@ input[type=submit]:hover {
 
 
 /* Mobil Anmeldelser */
-	.anmeldelser-ramme {
-		padding: 0 20px;
-	}
+.anmeldelser-ramme {
+    padding: 0 20px;
+}
 
 
-	.mySlides {
-		display: none
-	}
-
-
-
-	.anmeldelse-billeder {
-		width: 100%;
-	}
-
-
-	.slideshow-container {
-		max-width: 100%;
-		position: relative;
-	}
-
-
-	.prev,
-	.next {
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		width: auto;
-		padding: 16px;
-		margin-top: -22px;
-		color: white;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		user-select: none;
-	}
-
-
-	.next {
-		right: 0;
-		border-radius: 3px 0 0 3px;
-	}
-
-
-	.prev:hover,
-	.next:hover {
-		background-color: rgba(0, 0, 0, 0.8);
-	}
-
-	.dot-container {
-		text-align: center;
-	}
+.mySlides {
+    display: none
+}
 
 
 
-	.dot {
-		cursor: pointer;
-		height: 15px;
-		width: 15px;
-		margin: 0 2px;
-		background-color: #bbb;
-		border-radius: 50%;
-		display: inline-block;
-		transition: background-color 0.6s ease;
-	}
-
-	.active,
-	.dot:hover {
-		background-color: #717171;
-	}
+.anmeldelse-billeder {
+    width: 100%;
+}
 
 
-	.fade {
-		-webkit-animation-name: fade;
-		-webkit-animation-duration: 1.5s;
-		animation-name: fade;
-		animation-duration: 1.5s;
-	}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
 
-	@-webkit-keyframes fade {
-		from {
-			opacity: .4
-		}
-		to {
-			opacity: 1
-		}
-	}
 
-	@keyframes fade {
-		from {
-			opacity: .4
-		}
-		to {
-			opacity: 1
-		}
-	}
-	
-	
-	/* Mobil samarbejdspartner*/
-	
-	
-	.flex-samarbejdspartner {
-		padding: 0 10%;
-	}
-	
-	.partner {
-		width: 12%;
-		padding: 2%;
-		margin-left: 3%;
-	}
-	
-	.partner-2 {
-		width: 45%;
-		
-		margin-left: 4%;
-	}
-	
-	
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot-container {
+    text-align: center;
+}
+
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* Mobil samarbejdspartner*/
+
+
+.flex-samarbejdspartner {
+    padding: 0 10%;
+}
+
+.partner {
+    width: 12%;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.partner-2 {
+    width: 45%;
+
+    margin-left: 4%;
+}
+
+
 
 
 
@@ -457,6 +472,7 @@ h3 {
 #so-melogo i {
     margin: 5%;
 }
+
 #footerlogo {
     display: none;
 }
@@ -500,8 +516,8 @@ h3 {
         background-size: contain;
         background-repeat: repeat-y;
     }
-    
-    
+
+
 
     /*Om os - desktop*/
     #omsalonen {
@@ -512,11 +528,11 @@ h3 {
         width: 100%;
     }
 
-.video-mask {
-    width: 750px;
-    border-radius: 30px; 
-    overflow: hidden; 
-}    
+    .video-mask {
+        width: 750px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
 
 
     #video {
@@ -538,41 +554,45 @@ h3 {
     #menusidenDesktop {
         display: block;
     }
+
     #menusidenDesktop h3 {
-         color: black;
+        color: black;
         text-align: center;
     }
-    
+
     #menusidenDesktop img {
         width: 300px;
     }
-    
+
     .ornamentSection img {
         width: 75px !important;
     }
+
     .ornamentSectionFlip img {
-         width: 75px !important;
+        width: 75px !important;
     }
-    
+
     .accordion-content {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         justify-content: center;
     }
+
     .accordion-content div {
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
     }
-    
+
     .accordion-content img {
         margin: 20px;
     }
+
     .menuContainer {
         display: flex;
         justify-content: center;
     }
-    
+
     /* footer */
     #kontakt {
         display: flex;
@@ -580,8 +600,9 @@ h3 {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
     #footerlogo {
-        display:block;
+        display: block;
     }
 
 }
