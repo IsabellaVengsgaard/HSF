@@ -285,8 +285,13 @@ h3 {
 
 
 /* Desktop */
-@media (min-width:1024px) {
+@media (min-width:1020px) {
 
+    body {
+        background-image: url(/images/desktop-bg.jpg)
+    }
+    
+    
     /*Om os*/
     #omsalonen {
         display: flex;
@@ -340,10 +345,15 @@ h3 {
     }
     #menusidenDesktop h3 {
          color: black;
+        text-align: center;
     }
     
     #menusidenDesktop img {
         width: 300px;
+    }
+    
+    .ornamentSection img {
+        width: 80px !important;
     }
     
     /* footer */
