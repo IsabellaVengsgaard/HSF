@@ -492,19 +492,14 @@ h3 {
 @media (min-width:1020px) {
 
     body {
-        background-image: url(/images/desktop-bg.jpg)
+        background-image: url(/images/bg-web-stor.jpg);
+        background-size: contain;
+        background-repeat: repeat-y;
     }
     
     
-    /*Om os*/
-    #omsalonen {
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
-    }
 
-    /*Om os*/
+    /*Om os - desktop*/
     #omsalonen {
         display: flex;
         flex-direction: row;
@@ -549,7 +544,29 @@ h3 {
     }
     
     .ornamentSection img {
-        width: 80px !important;
+        width: 75px !important;
+    }
+    .ornamentSectionFlip img {
+         width: 75px !important;
+    }
+    
+    .accordion-content {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .accordion-content div {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .accordion-content img {
+        margin: 20px;
+    }
+    .menuContainer {
+        display: flex;
+        justify-content: center;
     }
     
     /* footer */
