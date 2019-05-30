@@ -513,25 +513,15 @@ i {
         align-items: flex-start;
         width: 100%;
     }
-
+    
 .video-mask {
     width: 750px;
     border-radius: 30px; 
-    overflow: hidden; 
-}    
+    overflow: hidden;
+    
+} 
 
-
-    #video {
-        display: flex;
-        justify-content: center;
-        width: 650px;
-        padding: 10px;
-        border-radius: 45px;
-        overflow: hidden;
-    }
-
-
-    /*styles til menu -desktop*/
+    /*styles til menu - desktop*/
     #menusiden {
         display: none;
     }
