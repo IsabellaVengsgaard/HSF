@@ -252,6 +252,9 @@ h3 {
 #so-melogo i {
     margin: 5%;
 }
+#footerlogo {
+    display: none;
+}
 
 
 
@@ -353,6 +356,8 @@ h3 {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
+    #footerlogo {
+        display:block;
+    }
 
 }
