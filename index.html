@@ -11,21 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/styles.css">
 
-
 </head>
 
 <body>
-    <!-- tabbar navigation: Aleksander -->
-    <nav id="menu" class="tabbar"></nav>
+    
+  <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
 
-
-
-    <!-- pages -->
-
-        <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
     <section id="forside">
-
+    <img src="images/mobile-bg-sketch.jpg">
     </section>
+
+  <!-- tabbar navigation: Aleksander -->
+
 
 
     <!-- dette er Om os til hjemmesiden og her koder:  Marie -->
@@ -95,19 +92,18 @@
             <img class="orna" src="images/blomst-ornament.svg" alt="blomst ornament">
             <img class="orn" src="images/ornament-hjre.svg" alt="ornament til højre">
          </section>
-
+    
+    
 <section class="booking">
-    <h2>Booking</h2>
-    <p>Her har man mulighed for at booke et bord, så er du sikker på at kunne få en plads. </p>
   <form action="/action_page.php">
-    <label for="fnavn">Fornavn</label>
-    <input type="text" id="fnavn" name="fornavn" placeholder="Dit fornavn">
+    <label for="fname">Fornavn</label>
+    <input type="text" id="fname" name="fornavn" placeholder="Dit fornavn">
 
-    <label for="lnavn">Efternavn</label>
-    <input type="text" id="lnavn" name="efternavn" placeholder="Dit efternavn">
+    <label for="lname">Efternavn</label>
+    <input type="text" id="lname" name="efternavn" placeholder="Dit efternavn">
 
     <label for="antal">Vælg antal personer</label>
-      <select id="antal" name="Antal">
+    <select id="antal" name="antal">
       <option value="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -118,29 +114,19 @@
       <option value="7">7</option>
       <option value="8">8</option>
       <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
     </select>
 
+    <label for="besked">Besked til salonen</label>
+    <textarea id="besked" name="besked" placeholder="Her kan du skrive en besked til salonen" style="height:200px"></textarea>
 
-    <label for="subject">Besked til salonen</label>
-    <textarea id="subject" name="subject" placeholder="Her kan du skrive en besked til salonen.." style="height:200px"></textarea>
-
-    <input type="submit" value="Send">
-
+    <input type="send" value="Send">
   </form>
-            </section>
+    </section>
 
+   <section id="bookimg">
+    <img src="images/booking-billede.png">
+    </section>
 
-      <!--Slut af ornament kode -->
-
-
-
-        <section id="nyheder">
-
-
-        </section>
 
 
 
@@ -183,7 +169,7 @@
 
 </section>
 
-
+    
 
 
     <script src="js/main.js"></script>
