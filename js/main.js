@@ -40,6 +40,7 @@ for (var i = 0; i < accordions.length; i++) {
 }
 
 
+
 // ---------- default SPA Web App setup ---------- //
 
 // hide all pages

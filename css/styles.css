@@ -552,7 +552,7 @@ i {
         background-repeat: repeat-y;
     }
 
-/*navbar til mobil styles*/
+    /*navbar til mobil styles*/
     img.logoFlex {
         margin-left: -5%;
     }
@@ -584,17 +584,6 @@ i {
     }
 
 
-    /*styles til menu -desktop*/
-
-
-    .video-mask {
-        width: 750px;
-        border-radius: 30px;
-        overflow: hidden;
-
-    }
-
-
     /*styles til menu - desktop*/
     #menusiden {
         display: none;
@@ -609,8 +598,10 @@ i {
         text-align: center;
     }
 
-    #menusidenDesktop img {
+    .accordion-content img {
         width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .ornamentSection img {
@@ -627,21 +618,32 @@ i {
         justify-content: center;
     }
 
-    .accordion-content div {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-
-    .accordion-content img {
-        margin: 20px;
-    }
-
     .menuContainer {
-        display: flex;
-        justify-content: center;
+        flex-direction: row;
     }
 
+    #kageOgis {
+        flex-direction: row;
+    }
+
+    .morgenMadImg {
+        width: 350px;
+        margin-left: 5%;
+    }
+
+    .menuFlexContainer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+
+    /*knap til at fører en tilbage til toppen af menu kortet*/
+    .buttonUpMenu {
+        align-self: flex-end;
+        background-color: wheat;
+        padding: 20px;
+    }
 
     /* footer */
 

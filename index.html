@@ -53,27 +53,28 @@
     <!-- dette er Om os til hjemmesiden og her koder:  Marie -->
     <section id="omos">
 
-    <div class="ornamentSection"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" class="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
-    <div class="hovedSection">
-    <img src="images/dame-hoved.svg" alt="HSF ejer dame silluet">
-    <img src="images/mand-hoved.svg" alt="HSF ejr mand silluet">
-    </div>
-    <h2>Om Salonen</h2>
+        <div class="ornamentSection"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" class="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
+        <div class="hovedSection">
+            <img src="images/dame-hoved.svg" alt="HSF ejer dame silluet">
+            <img src="images/mand-hoved.svg" alt="HSF ejr mand silluet">
+        </div>
+        <h2>Om Salonen</h2>
 
-    <div id="omsalonen">
-    <div id="salonen_et">
-    <p>Velkommen Hos Sofies Forældre. Vi er en mindre Kaffe- og Te Salon, der tilbyder en rolig, hyggelig og hjemlig atmosfære med base i Frederiksgade Aarhus C. Vi er en børnevenlig salon med højt til loftet. Her har du mulighed for at medbringe dit barn, ude i baggården kan du parkerer barnevognen, og ude på WC’et har vi monteret skiftebord. Vi er velbesøgt af mødre, bedsteforældre, studerende og sågar turister som kommer her, for at opleve en autentisk hyggelig stemning.<br></p>
-    </div>
+        <div id="omsalonen">
+            <div id="salonen_et">
+                <p>Velkommen Hos Sofies Forældre. Vi er en mindre Kaffe- og Te Salon, der tilbyder en rolig, hyggelig og hjemlig atmosfære med base i Frederiksgade Aarhus C. Vi er en børnevenlig salon med højt til loftet. Her har du mulighed for at medbringe dit barn, ude i baggården kan du parkerer barnevognen, og ude på WC’et har vi monteret skiftebord. Vi er velbesøgt af mødre, bedsteforældre, studerende og sågar turister som kommer her, for at opleve en autentisk hyggelig stemning.<br></p>
+            </div>
 
-    <div id="salonen_to">
-    <p>Vi er primært en Kaffe- og Te Salon og ikke en ordinær café. Dette er grundet, vores udvalg af madvarer som er begrænset, da vi arbejder med et mindre tekøkken her på stedet. Vores værdier handler om at sætte kundens behov først, i forsøget på at skabe et sted, hvor kunden føler sig hjemme og velkommen. Samtidigt yder vi en personlig service og er altid imødekommende lige meget hvem der kommer ind i salonen.</p>
-    </div>
-    </div>
-    
-    <center><div class="video-mask">
-    <video id="video" preload="auto"  src="video/hsf_video.mp4" controls></video>
-    </div>
-    </center>
+            <div id="salonen_to">
+                <p>Vi er primært en Kaffe- og Te Salon og ikke en ordinær café. Dette er grundet, vores udvalg af madvarer som er begrænset, da vi arbejder med et mindre tekøkken her på stedet. Vores værdier handler om at sætte kundens behov først, i forsøget på at skabe et sted, hvor kunden føler sig hjemme og velkommen. Samtidigt yder vi en personlig service og er altid imødekommende lige meget hvem der kommer ind i salonen.</p>
+            </div>
+        </div>
+
+        <center>
+            <div class="video-mask">
+                <video id="video" preload="auto" src="video/hsf_video.mp4" controls></video>
+            </div>
+        </center>
     </section>
 
     <!-- dette er Menu til hjemmesiden og her koder:  Isabella  -->
@@ -114,20 +115,45 @@
         <div class="ornamentSection"><img src="images/ornament-venstre.svg" alt="HSF Ornament">
             <h2>Menu</h2><img src="images/ornament-hjre.svg" alt="HSF Ornament">
         </div>
-    <h3>Morgenmad &amp; Frokost</h3>
-        <img src="images/menumobil_4.png" alt="Morgenmad">
-        <img src="images/menumobil_1.png" alt="Sandwich og burger">
-        <img src="images/menumobil_2.png" alt="Tærter, salat og suppe">
-        <img src="images/menumobil_3.png" alt="Rugbrød og Bagværk">
-    <h3>Drikkevare</h3>
-        <img src="images/menumobil_5.png" alt="Te og Kakao">
-        <img src="images/menumobil_6.png" alt="Kaffe, Filterkaffe og Stempelkaffe">
-        <img src="images/menumobil_7.png" alt="Kold kaffe, mælk, juice og vand">
-        <img src="images/menumobil_8.png" alt="Sodavand, saftevand">
-    <h3>Kage &amp; Is</h3>
-        <img src="images/menumobil_9.png" alt="Tærter og Kager">
-        <img src="images/menumobil_10.png" alt="Is Og pandekager">
-
+        <div class="menuFlexContainer">
+                <img src="images/morgenmad_menu1.jpg" alt="Morgenmadsbord med te hos HSF" class="morgenMadImg">
+            <div>
+               
+                <h3>Morgenmad &amp; Frokost</h3>
+                <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
+                <div class="accordion-content">
+                    <div class="menuContainer">
+                        <img src="images/menumobil_4.png" alt="Morgenmad">
+                        <img src="images/menumobil_1.png" alt="Sandwich og burger">
+                    </div>
+                    <div class="menuContainer">
+                        <img src="images/menumobil_2.png" alt="Tærter, salat og suppe">
+                        <img src="images/menumobil_3.png" alt="Rugbrød og Bagværk">
+                    </div>
+                    <a href="#menusidenDesktop" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
+                </div>
+                <h3>Drikkevare</h3>
+                <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
+                <div class="accordion-content">
+                    <div class="menuContainer">
+                        <img src="images/menumobil_5.png" alt="Te og Kakao">
+                        <img src="images/menumobil_6.png" alt="Kaffe, Filterkaffe og Stempelkaffe">
+                    </div>
+                    <div class="menuContainer">
+                        <img src="images/menumobil_7.png" alt="Kold kaffe, mælk, juice og vand">
+                        <img src="images/menumobil_8.png" alt="Sodavand, saftevand">
+                    </div>
+                </div>
+                <h3>Kage &amp; Is</h3>
+                <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
+                <div class="accordion-content" id="kageOgis">
+                    <img src="images/menumobil_9.png" alt="Tærter og Kager">
+                    <img src="images/menumobil_10.png" alt="Is Og pandekager">
+                </div>
+            </div>
+        </div>
+        
+        
         <div class="ornamentSectionFlip"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" class="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
     </section>
 
@@ -190,55 +216,55 @@
 
     <!-- dette er anmeldelser og grupper og logoer til samarbejder til hjemmesiden og her koder:  Alan  -->
 
-<section>
-		
-		<h2>Anmeldelser</h2>
+    <section>
 
-		<div class="anmeldelser-ramme">
+        <h2>Anmeldelser</h2>
 
-
-			<div class="slideshow-container">
-
-				<div class="mySlides fade">
-
-					<img class="anmeldelse-billeder" src="images/anmeldelse-1.png">
-
-				</div>
-
-				<div class="mySlides fade">
-
-					<img class="anmeldelse-billeder" src="images/anmeldelse-2.png">
-
-				</div>
-
-				<div class="mySlides fade">
-
-					<img class="anmeldelse-billeder" src="images/anmeldelse-3.png">
-
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-			</div>
-			<br>
-
-			<div class="dot-container">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
-			</div>
+        <div class="anmeldelser-ramme">
 
 
-		</div>
+            <div class="slideshow-container">
 
-	</section>
-	
-	<section>
-	
-	<h2>Samarbejdspartner</h2>
-           
-           <div class="flex-samarbejdspartner">
+                <div class="mySlides fade">
+
+                    <img class="anmeldelse-billeder" src="images/anmeldelse-1.png">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img class="anmeldelse-billeder" src="images/anmeldelse-2.png">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img class="anmeldelse-billeder" src="images/anmeldelse-3.png">
+
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Samarbejdspartner</h2>
+
+        <div class="flex-samarbejdspartner">
             <img class="partner" src="images/bki-logo.png" alt="Bki logo">
 
             <img class="partner-2" src="images/catering-logo.png" alt="ab catering logo">
@@ -253,7 +279,7 @@
 
             <img class="partner-2" src="images/cg-logo.png" alt="cg-logo">
 
-		</div>
+        </div>
     </section>
 
 
@@ -263,13 +289,13 @@
         <div id="footerlogo">
             <img src="images/hsf-logo.svg" alt="logo i footer">
         </div>
-        
+
         <div id="kontaktinfo">
             <h3>Kontakt</h3>
             <p class="aarhus"><i class="fas fa-map-marker-alt fa-1x" style="margin: 10px"></i>Frederiksgade 74 st.th, 8000 Århus C</p>
-            
-            <p class="email"><i class="fas fa-envelope fa-1x"style="margin: 10px; color: white"></i><a href="sofies@post.cybercity.dk">Email: sofies@post.cybercity.dk</a></p>
-            
+
+            <p class="email"><i class="fas fa-envelope fa-1x" style="margin: 10px; color: white"></i><a href="sofies@post.cybercity.dk">Email: sofies@post.cybercity.dk</a></p>
+
             <p class="telefon"><i class="fas fa-phone fa-1x" style="margin: 10px"></i><a href="tel:60-80-07-99">Tlf.: 60 80 07 99</a></p>
         </div>
 
@@ -283,8 +309,8 @@
 
         <div id="so_melogo">
             <h3>Følg os på</h3>
-           <a href="">
-           <i class="fab fa-facebook fa-2x"></i></a>
+            <a href="">
+                <i class="fab fa-facebook fa-2x"></i></a>
             <a href=""><i class="fab fa-instagram fa-2x"></i></a>
         </div>
     </section>
@@ -292,4 +318,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
