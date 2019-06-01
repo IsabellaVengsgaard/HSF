@@ -32,6 +32,7 @@ h5 {
 #forside img {
     width: 100%;
 }
+
 h2 {
     text-align: center;
 }
@@ -280,7 +281,7 @@ html {
 
 /* G.S. - booking styles */
 
-#book-img{
+#book-img {
     display: none;
 }
 
@@ -293,34 +294,36 @@ html {
     font-family: montaga;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=send] {
-  background-color: rgb(116, 1, 42);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 35px;
-  cursor: pointer;
+    background-color: rgb(116, 1, 42);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
 }
 
 input[type=send]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 /* G.S. - anmeldser, nyheder, logoer styles */
@@ -521,20 +524,21 @@ i {
         border-radius: 20px;
         margin-top: 20px;
     }
-/*styles til booking - tablet*/
-    
-#booking {
-  display: flex;
-  border-radius: 5px;
-  padding: 20px;
-  overflow: hidden;
-}
-    
-#book-img {
-    background-size: contain;
-    display: flex;
-    width: 50%;
-    padding-left: 10%;
+
+    /*styles til booking - tablet*/
+
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    #book-img {
+        background-size: contain;
+        display: flex;
+        width: 50%;
+        padding-left: 10%;
     }
 }
 
@@ -639,19 +643,25 @@ i {
         border-radius: 20px;
         margin-top: 20px;
     }
-    
-/*styles til booking - desktop*/
-    
-#booking {
-  display: flex;
-  border-radius: 5px;
-  padding: 20px;
-  overflow: hidden;
-  margin-left: 15%;
-}
-    
-#book-img {
-    padding-left: 25%;
+
+    .menuContainer2 {
+        display: flex;
+        align-items: baseline;
+
+    }
+
+    /*styles til booking - desktop*/
+
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+        margin-left: 15%;
+    }
+
+    #book-img {
+        padding-left: 25%;
     }
 
 
