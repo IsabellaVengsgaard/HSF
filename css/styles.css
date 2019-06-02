@@ -339,7 +339,7 @@ input[type=send]:hover {
 
 .mySlides {
     display: none;
-    padding: 10px 150px;
+    padding: 10px 50px;
     text-align: center;
 }
 
@@ -399,6 +399,7 @@ input[type=send]:hover {
 
 q {
     font-style: italic;
+    
 }
 
 
@@ -409,9 +410,7 @@ q {
 
 .anmeldelser-billeder {
     min-width: 8%;
-    height: auto;
-
-
+ 
 }
 
 /* G.S - Samarbejdspartner*/
@@ -679,8 +678,35 @@ i {
         width: 45%;
     }
     
+    /* anmeldelser - desktop */
+    .mySlides {
+        padding: 10px 300px;
+        
+    }
+   
+    .next {
+        margin-right: 10%;
+}
+    .prev {
+        margin-left: 10%;
+    }
+
+    q {
+        font-style: italic;
+        
+    }
+
+
+    .author {
+        color: #3f3838;
+        font-weight: bold;
+    }
+
+    .anmeldelser-billeder {
+        min-width: 8%;
+    }
     
-    /* samarbejdspartner */
+    /* samarbejdspartner - desktop */
     
     
 .flex-samarbejdspartner {
