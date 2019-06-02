@@ -675,6 +675,30 @@ i {
     button.accordion {
         width: 45%;
     }
+    
+    
+    /* samarbejdspartner */
+    
+    
+.flex-samarbejdspartner {
+    padding: 0 10%;
+}
+
+.partner {
+    width: 3%;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.partner-2 {
+    width: 12%;
+    margin-left: 4%;
+}
+
+    
+    
+    
+    
 
 
     /* footer */
