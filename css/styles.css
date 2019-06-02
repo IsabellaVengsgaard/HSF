@@ -414,7 +414,7 @@ q {
 
 }
 
-/* Mobil samarbejdspartner*/
+/* G.S - Samarbejdspartner*/
 
 
 .flex-samarbejdspartner {
@@ -483,8 +483,6 @@ i {
 }
 
 
-/* Mobile */
-@media (min-width:400px) {}
 
 /* Tablet */
 @media (min-width:700px) {
