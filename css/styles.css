@@ -632,6 +632,12 @@ i {
         align-items: flex-start;
     }
 
+    .menuContainer2 {
+        display: flex;
+        align-items: baseline;
+
+    }
+
 
     /*knap til at fører en tilbage til toppen af menu kortet*/
     .buttonUpMenu {
@@ -644,11 +650,6 @@ i {
         margin-top: 20px;
     }
 
-    .menuContainer2 {
-        display: flex;
-        align-items: baseline;
-
-    }
 
     /*styles til booking - desktop*/
 
