@@ -29,6 +29,13 @@ h5 {
 
 /* G.S. - forside styles */
 
+
+
+#forside img {
+    width: 100%;
+}
+
+
 h2 {
     text-align: center;
 }
@@ -295,7 +302,11 @@ textarea {
     resize: vertical;
 }
 
+
 input[type=submit] {
+
+input[type=send] {
+
     background-color: rgb(116, 1, 42);
     color: white;
     padding: 12px 20px;
@@ -326,7 +337,7 @@ input[type=send]:hover {
 
 .mySlides {
     display: none;
-    padding: 10px 150px;
+    padding: 10px 50px;
     text-align: center;
 }
 
@@ -386,6 +397,7 @@ input[type=send]:hover {
 
 q {
     font-style: italic;
+
 }
 
 
@@ -396,27 +408,30 @@ q {
 
 .anmeldelser-billeder {
     min-width: 8%;
-    height: auto;
-
 
 }
 
-/* Mobil samarbejdspartner*/
+/* G.S - Samarbejdspartner*/
 
 .flex-samarbejdspartner {
     padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
 }
 
 .partner {
-    width: 12%;
-    padding: 2%;
-    margin-left: 3%;
+    width: 15%;
+    height: 2%;
+    margin: 3% 5% 0 0;
 }
 
 .partner-2 {
-    width: 45%;
-
-    margin-left: 4%;
+    width: 35%;
+    height: 2%;
+    margin: 4% 2% 0 0;
 }
 
 
@@ -470,9 +485,12 @@ i {
 }
 
 
+
 /* Mobile */
 
 @media (min-width:400px) {}
+
+
 
 /* Tablet */
 
@@ -513,7 +531,13 @@ i {
         border-radius: 20px;
         margin-top: 20px;
     }
+
     /*styles til booking - tablet*/
+
+
+    /*styles til booking - tablet*/
+
+
     #booking {
         display: flex;
         border-radius: 5px;
@@ -664,6 +688,12 @@ i {
         align-items: flex-start;
     }
 
+    .menuContainer2 {
+        display: flex;
+        align-items: baseline;
+
+    }
+
 
     /*knap til at fører en tilbage til toppen af menu kortet*/
     .buttonUpMenu {
@@ -676,7 +706,12 @@ i {
         margin-top: 20px;
     }
 
+
     /*styles til booking - desktop*/
+
+
+    /*styles til booking - desktop*/
+
     #booking {
         display: flex;
         border-radius: 5px;
@@ -699,6 +734,59 @@ i {
     button.accordion {
         width: 45%;
     }
+
+    /* anmeldelser - desktop */
+    .mySlides {
+        padding: 10px 300px;
+
+    }
+
+    .next {
+        margin-right: 10%;
+}
+    .prev {
+        margin-left: 10%;
+    }
+
+    q {
+        font-style: italic;
+
+    }
+
+
+    .author {
+        color: #3f3838;
+        font-weight: bold;
+    }
+
+    .anmeldelser-billeder {
+        min-width: 8%;
+    }
+
+    /* samarbejdspartner - desktop */
+
+
+.flex-samarbejdspartner {
+    padding: 0 10%;
+    flex-direction: row;
+}
+
+.partner {
+    width: 4%;
+    margin-top: 0;
+}
+
+.partner-2 {
+    width: 15%;
+    margin-top: 0;
+
+
+}
+
+
+
+
+
 
 
     /* footer */
