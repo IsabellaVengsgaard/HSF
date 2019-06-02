@@ -29,16 +29,12 @@ h5 {
 
 /* G.S. - forside styles */
 
-#forside img {
-    width: 100%;
-}
 h2 {
     text-align: center;
 }
 
 
 /* G.S. - navigation styles */
-
 
 .forsideImage {
     width: 100%;
@@ -149,13 +145,6 @@ h2 {
 
 
 /* G.S. - forsiden styles */
-
-#forside {
-    background-image: url('../images/mobile-bg-sketch.jpg');
-    background-size: contain;
-
-
-}
 
 /* G.S. - om os styles */
 
@@ -280,7 +269,7 @@ html {
 
 /* G.S. - booking styles */
 
-#book-img{
+#book-img {
     display: none;
 }
 
@@ -293,41 +282,42 @@ html {
     font-family: montaga;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-input[type=send] {
-  background-color: rgb(116, 1, 42);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 35px;
-  cursor: pointer;
+input[type=submit] {
+    background-color: rgb(116, 1, 42);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
 }
 
 input[type=send]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 /* G.S. - anmeldser, nyheder, logoer styles */
 
-
-
 /* Mobil Anmeldelser */
+
 .slideshow-container {
     position: relative;
 
@@ -413,7 +403,6 @@ q {
 
 /* Mobil samarbejdspartner*/
 
-
 .flex-samarbejdspartner {
     padding: 0 10%;
 }
@@ -434,6 +423,7 @@ q {
 /* G.S. - Kontakt styles */
 
 /*Footer*/
+
 #kontakt {
     display: flex;
     flex-wrap: wrap;
@@ -481,9 +471,11 @@ i {
 
 
 /* Mobile */
+
 @media (min-width:400px) {}
 
 /* Tablet */
+
 @media (min-width:700px) {
 
     /*styles til menuside - tablet*/
@@ -521,20 +513,19 @@ i {
         border-radius: 20px;
         margin-top: 20px;
     }
-/*styles til booking - tablet*/
-    
-#booking {
-  display: flex;
-  border-radius: 5px;
-  padding: 20px;
-  overflow: hidden;
-}
-    
-#book-img {
-    background-size: contain;
-    display: flex;
-    width: 50%;
-    padding-left: 10%;
+    /*styles til booking - tablet*/
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    #book-img {
+        background-size: contain;
+        display: flex;
+        width: 50%;
+        padding-left: 10%;
     }
 }
 
@@ -550,7 +541,52 @@ i {
 
     /*navbar til mobil styles*/
     img.logoFlex {
-        margin-left: -5%;
+        display: none;
+    }
+
+    .navbar {
+        float: left;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        padding-top: 1%;
+        padding-left: 5%;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        padding-top: 2%;
+        color: white;
+        list-style-type: none;
+        display: inline-block;
+    }
+    .navbar ul li a {
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
+    .logonav {
+        width: 7%;
+        padding-right: 30%;
+        float: left;
+        position: relative;
+        z-index: 1;
+        top: 0;
+    }
+
+    .forsideImage {
+        display: none;
+    }
+
+    .storforside {
+        width: 100%;
+    }
+
+
+    .onTop {
+        display: none;
     }
 
     /*Om os - desktop*/
@@ -639,19 +675,18 @@ i {
         border-radius: 20px;
         margin-top: 20px;
     }
-    
-/*styles til booking - desktop*/
-    
-#booking {
-  display: flex;
-  border-radius: 5px;
-  padding: 20px;
-  overflow: hidden;
-  margin-left: 15%;
-}
-    
-#book-img {
-    padding-left: 25%;
+
+    /*styles til booking - desktop*/
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+        margin-left: 15%;
+    }
+
+    #book-img {
+        padding-left: 25%;
     }
 
 
@@ -667,10 +702,7 @@ i {
 
 
     /* footer */
-
-
     /* footer - desktop */
-
     #kontakt {
         display: flex;
         flex-wrap: wrap;
