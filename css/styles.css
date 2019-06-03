@@ -47,7 +47,8 @@ h2 {
 }
 
 .ornament-forside {
-	
+	position: absolute;
+	margin-top: -23%;
 }
 
 
@@ -648,6 +649,17 @@ a {color: white;}
     .onTop {
         display: none;
     }
+	
+	.ornament-forside {
+	width: 30%;
+	left: 35%;
+	position: absolute;
+	margin-top: -7%;
+}
+
+	
+	
+	
 
     /*Om os - desktop*/
     #omsalonen {
