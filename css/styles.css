@@ -485,6 +485,8 @@ i {
 }
 
 
+a {color: white;}
+
 
 /* Mobile */
 
@@ -512,6 +514,23 @@ i {
         width: 300px !important;
         margin-left: -10%;
     }
+    /* footer - tablet */
+
+
+    #kontakt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #footerlogo {
+        display: block;
+        margin: 40px 0 0 0;
+        
+    }
+    
+}
 
     /*menukort styles til tablet*/
     .accordion-content img {
@@ -535,7 +554,7 @@ i {
     /*styles til booking - tablet*/
 
 
-    /*styles til booking - tablet*/
+
 
 
     #booking {
@@ -707,7 +726,9 @@ i {
     }
 
 
-    /*styles til booking - desktop*/
+    
+    /* footer - desktop */
+
 
 
     /*styles til booking - desktop*/
@@ -789,7 +810,7 @@ i {
 
 
 
-    /* footer */
+   
     /* footer - desktop */
     #kontakt {
         display: flex;
@@ -800,5 +821,7 @@ i {
 
     #footerlogo {
         display: block;
+        margin: 40px 0 0 0;
+        
     }
 }
