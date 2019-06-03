@@ -535,9 +535,9 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
-    
+
 
 
     /*menukort styles til tablet*/
@@ -596,7 +596,11 @@ a {color: white;}
     }
 
     .navbar {
+
         display: block;
+
+		display: block;
+
         float: left;
         overflow: hidden;
         position: absolute;
@@ -632,6 +636,7 @@ a {color: white;}
     }
 
     .storforside {
+		display:block;
         width: 100%;
     }
 
@@ -734,7 +739,7 @@ a {color: white;}
     }
 
 
-    
+
     /* footer - desktop */
 
 
@@ -818,7 +823,7 @@ a {color: white;}
 
 
 
-   
+
     /* footer - desktop */
     #kontakt {
         display: flex;
@@ -830,6 +835,6 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
 }
