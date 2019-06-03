@@ -495,6 +495,8 @@ i {
     color: white;
 }
 
+a {color: white;}
+
 /* Mobile */
 @media (min-width:400px) {}
 
@@ -530,8 +532,21 @@ i {
         width: 300px !important;
         margin-left: -10%;
     }
+    /* footer - tablet */
 
+    #kontakt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
+    #footerlogo {
+        display: block;
+        margin: 40px 0 0 0;
+        
+    }
+    
 }
 
 
@@ -637,9 +652,7 @@ i {
         padding: 20px;
     }
 
-    /* footer */
-
-
+    
     /* footer - desktop */
 
     #kontakt {
@@ -651,5 +664,7 @@ i {
 
     #footerlogo {
         display: block;
+        margin: 40px 0 0 0;
+        
     }
 }
