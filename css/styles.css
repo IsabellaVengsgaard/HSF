@@ -29,6 +29,10 @@ h5 {
 
 /* G.S. - forside styles */
 
+.navbar {
+    display: none;
+}
+
 .storforside {
     display: none;
 }
@@ -51,9 +55,7 @@ h2 {
     position: relative;
 }
 
-.navbar {
-    display: none;
-}
+
 .navContainer {
     display: flex;
     justify-content: space-between;
@@ -594,6 +596,7 @@ a {color: white;}
     }
 
     .navbar {
+        display: block;
         float: left;
         overflow: hidden;
         position: absolute;
