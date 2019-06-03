@@ -29,7 +29,9 @@ h5 {
 
 /* G.S. - forside styles */
 
-
+.storforside {
+    display: none;
+}
 
 #forside img {
     width: 100%;
@@ -49,6 +51,9 @@ h2 {
     position: relative;
 }
 
+.navbar {
+    display: none;
+}
 .navContainer {
     display: flex;
     justify-content: space-between;
@@ -494,6 +499,7 @@ a {color: white;}
 
 
 
+
 /* Tablet */
 
 @media (min-width:700px) {
@@ -612,7 +618,7 @@ a {color: white;}
     }
     .logonav {
         width: 7%;
-        padding-right: 30%;
+       
         float: left;
         position: relative;
         z-index: 1;
