@@ -594,6 +594,7 @@ a {color: white;}
     }
 
     .navbar {
+		display: block;
         float: left;
         overflow: hidden;
         position: absolute;
@@ -630,6 +631,7 @@ a {color: white;}
     }
 
     .storforside {
+		display:block;
         width: 100%;
     }
 
