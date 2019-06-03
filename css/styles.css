@@ -29,7 +29,13 @@ h5 {
 
 /* G.S. - forside styles */
 
+.navbar {
+    display: none;
+}
 
+.storforside {
+    display: none;
+}
 
 #forside img {
     width: 100%;
@@ -40,6 +46,10 @@ h2 {
     text-align: center;
 }
 
+.ornament-forside {
+	
+}
+
 
 /* G.S. - navigation styles */
 
@@ -48,6 +58,7 @@ h2 {
     z-index: -1;
     position: relative;
 }
+
 
 .navContainer {
     display: flex;
@@ -494,6 +505,7 @@ a {color: white;}
 
 
 
+
 /* Tablet */
 
 @media (min-width:700px) {
@@ -527,9 +539,9 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
-    
+
 
 
     /*menukort styles til tablet*/
@@ -570,7 +582,7 @@ a {color: white;}
         width: 50%;
         padding-left: 10%;
     }
-}
+
 
 /* Desktop */
 
@@ -588,6 +600,11 @@ a {color: white;}
     }
 
     .navbar {
+
+        display: block;
+
+		display: block;
+
         float: left;
         overflow: hidden;
         position: absolute;
@@ -612,7 +629,6 @@ a {color: white;}
     }
     .logonav {
         width: 7%;
-        padding-right: 30%;
         float: left;
         position: relative;
         z-index: 1;
@@ -624,6 +640,7 @@ a {color: white;}
     }
 
     .storforside {
+		display:block;
         width: 100%;
     }
 
@@ -726,7 +743,7 @@ a {color: white;}
     }
 
 
-    
+
     /* footer - desktop */
 
 
@@ -810,7 +827,7 @@ a {color: white;}
 
 
 
-   
+
     /* footer - desktop */
     #kontakt {
         display: flex;
@@ -822,6 +839,6 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
 }
