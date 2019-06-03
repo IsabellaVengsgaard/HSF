@@ -29,6 +29,10 @@ h5 {
 
 /* G.S. - forside styles */
 
+.navbar {
+    display: none;
+}
+
 .storforside {
     display: none;
 }
@@ -42,6 +46,10 @@ h2 {
     text-align: center;
 }
 
+.ornament-forside {
+	
+}
+
 
 /* G.S. - navigation styles */
 
@@ -51,9 +59,7 @@ h2 {
     position: relative;
 }
 
-.navbar {
-    display: none;
-}
+
 .navContainer {
     display: flex;
     justify-content: space-between;
@@ -533,9 +539,9 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
-    
+
 
 
     /*menukort styles til tablet*/
@@ -594,7 +600,11 @@ a {color: white;}
     }
 
     .navbar {
+
+        display: block;
+
 		display: block;
+
         float: left;
         overflow: hidden;
         position: absolute;
@@ -619,7 +629,6 @@ a {color: white;}
     }
     .logonav {
         width: 7%;
-       
         float: left;
         position: relative;
         z-index: 1;
@@ -734,7 +743,7 @@ a {color: white;}
     }
 
 
-    
+
     /* footer - desktop */
 
 
@@ -818,7 +827,7 @@ a {color: white;}
 
 
 
-   
+
     /* footer - desktop */
     #kontakt {
         display: flex;
@@ -830,6 +839,6 @@ a {color: white;}
     #footerlogo {
         display: block;
         margin: 40px 0 0 0;
-        
+
     }
 }
