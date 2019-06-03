@@ -6,24 +6,38 @@
     <meta name="description" content="Hos Sofies Forældre er en kaffe- og te Salon/cafe placeret i Frederiksgade Aarhus C, der tilbyder en masse drikkevare og hygge til enhver type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hos Sofies Forældre</title>
+
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/styles.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
+
 </head>
 
 <body>
-    <!-- tabbar navigation: Aleksander -->
+
+
+  <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
+
+
+    <!-- tabbar mobil navigation: Aleksander -->
     <nav id="menu" class="tabbar"></nav>
-
-
     <div class="postionStuff">
         <div class="forsideImage">
             <img class="forsideBillede" src="images/mobile-bg-sketch.jpg">
         </div>
+     <div>
+            <img class="storforside" src="images/front-web-stor.jpg">
+        </div>
         <div class="navContainer">
-            <img src="images/hsf-logo.svg" alt="" class="logoFlex">
+            <img src="images/hsf-logo.svg" alt="HSF logo" class="logoFlex">
             <div class="onTop">
                 <img src="images/nav-icon.png" alt="">
                 <div class="menuMobildiv">
@@ -42,12 +56,19 @@
             </div>
         </div>
     </div>
+   
+  <!-- tabbar desktop navigation: Aleksander -->
+    <nav class="navbar">
+        <img class="logonav" src="images/hsf-logo.svg" alt="HSF logo"> 
+        <ul>
+        <li><a href="#omos">Om os</a></li>
+        <li><a href="#menusiden">Menukort</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#nyheder">Nyheder</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
 
-
-    <!-- dette er Forsiden til hjemmesiden og her koder:  aleksander  -->
-    <section id="forside">
-
-    </section>
 
 
     <!-- dette er Om os til hjemmesiden og her koder:  Marie -->
@@ -89,6 +110,7 @@
             <img src="images/menumobil_1.png" alt="Sandwich og burger">
             <img src="images/menumobil_2.png" alt="Tærter, salat og suppe">
             <img src="images/menumobil_3.png" alt="Rugbrød og Bagværk">
+             <a href="#menusiden" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
         </div>
 
         <h3>Drikkevare</h3>
@@ -99,12 +121,14 @@
             <img src="images/menumobil_6.png" alt="Kaffe, Filterkaffe og Stempelkaffe">
             <img src="images/menumobil_7.png" alt="Kold kaffe, mælk, juice og vand">
             <img src="images/menumobil_8.png" alt="Sodavand, saftevand">
+             <a href="#menusiden" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
         </div>
         <h3>Kage &amp; Is</h3>
         <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
         <div class="accordion-content">
             <img src="images/menumobil_9.png" alt="Tærter og Kager">
             <img src="images/menumobil_10.png" alt="Is Og pandekager">
+             <a href="#menusiden" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
         </div>
         <div class="ornamentSectionFlip"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" class="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
     </section>
@@ -118,7 +142,7 @@
         <div class="menuFlexContainer">
                 <img src="images/morgenmad_menu1.jpg" alt="Morgenmadsbord med te hos HSF" class="morgenMadImg">
             <div>
-               
+
                 <h3>Morgenmad &amp; Frokost</h3>
                 <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
                 <div class="accordion-content">
@@ -143,73 +167,61 @@
                         <img src="images/menumobil_7.png" alt="Kold kaffe, mælk, juice og vand">
                         <img src="images/menumobil_8.png" alt="Sodavand, saftevand">
                     </div>
+                    <a href="#menusidenDesktop" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
                 </div>
                 <h3>Kage &amp; Is</h3>
                 <button class="accordion">Læs mere <i class="fas fa-plus"></i></button>
-                <div class="accordion-content" id="kageOgis">
+                <div class="accordion-content">
+                   <div class="menuContainer2">
                     <img src="images/menumobil_9.png" alt="Tærter og Kager">
                     <img src="images/menumobil_10.png" alt="Is Og pandekager">
+                    </div>
+                    <a href="#menusidenDesktop" class="buttonUpMenu"><i class="fas fa-chevron-up"></i></a>
                 </div>
             </div>
         </div>
-        
-        
+
+
         <div class="ornamentSectionFlip"><img src="images/ornament-venstre.svg" alt="HSF Ornament"><img src="images/blomst-ornament.svg" class="ornamentBlomst" alt=""><img src="images/ornament-hjre.svg" alt="HSF Ornament"></div>
     </section>
 
     <!-- dette er booking til hjemmesiden og her koder: Aleksander  -->
 
-    <!-- Ornament html kode -->
-    <section id="ornament">
-        <img class="orn" src="images/ornament-venstre.svg" alt="ornament til venstre">
-        <img class="orna" src="images/blomst-ornament.svg" alt="blomst ornament">
-        <img class="orn" src="images/ornament-hjre.svg" alt="ornament til højre">
-    </section>
+   
+<section id="booking">
+  <form action="/action_page.php">
+         <h2>Booking</h2>
+      <p>Her har du mulighed for at booke et bord, så er du sikker på at der er plads til hele familien.</p>
+    <label for="fname">Fornavn</label>
+    <input type="text" id="fname" name="fornavn" placeholder="Dit fornavn">
 
-    <section class="booking" id="bookTable">
-        <h2>Booking</h2>
-        <p>Her har man mulighed for at booke et bord, så er du sikker på at kunne få en plads. </p>
-        <form action="/action_page.php">
-            <label for="fnavn">Fornavn</label>
-            <input type="text" id="fnavn" name="fornavn" placeholder="Dit fornavn">
+    <label for="lname">Efternavn</label>
+    <input type="text" id="lname" name="efternavn" placeholder="Dit efternavn">
 
-            <label for="lnavn">Efternavn</label>
-            <input type="text" id="lnavn" name="efternavn" placeholder="Dit efternavn">
+    <label for="antal">Vælg antal personer</label>
+    <select id="antal" name="antal">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
 
-            <label for="antal">Vælg antal personer</label>
-            <select id="antal" name="Antal">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-            </select>
+    <label for="besked">Besked til salonen</label>
+    <textarea id="besked" name="besked" placeholder="Her kan du skrive en besked til salonen" style="height:200px"></textarea>
 
 
-            <label for="subject">Besked til salonen</label>
-            <textarea id="subject" name="subject" placeholder="Her kan du skrive en besked til salonen.." style="height:200px"></textarea>
-
-            <input type="submit" value="Send">
-
-        </form>
-    </section>
-
-
-    <!--Slut af ornament kode -->
-
-
-
-    <section id="nyheder">
-
-
+    <input type="submit" value="Send">
+  </form>
+    
+   <div id="book-img">
+    <img src="images/booking-img-small.jpg">
+    </div>
     </section>
 
 
@@ -220,65 +232,23 @@
 
         <h2>Anmeldelser</h2>
 
-        <div class="anmeldelser-ramme">
 
-
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-
-                    <img class="anmeldelse-billeder" src="images/anmeldelse-1.png">
-
-                </div>
-
-                <div class="mySlides fade">
-
-                    <img class="anmeldelse-billeder" src="images/anmeldelse-2.png">
-
-                </div>
-
-                <div class="mySlides fade">
-
-                    <img class="anmeldelse-billeder" src="images/anmeldelse-3.png">
-
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-            </div>
-            <br>
-
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <h2>Samarbejdspartner</h2>
-
-		   
 <div class="slideshow-container">
 
 <div class="mySlides">
-    
+
     <img class="anmeldelser-billeder" src="images/moedre.png" alt="">
+    
+    
     <h3>Lækre tærter og hyggelig atmosfære</h3>
-  <q>Vores første besøg var meget positivt. Stedet med hyggelig mormorindretning og glad, imødekommende og afslappet betjening. 
+  <q>Vores første besøg var meget positivt. Stedet med hyggelig mormorindretning og glad, imødekommende og afslappet betjening.
 Vi fik porretærte med fyldig salat samt laksetærte med brød og samme fyldige salat. Porretærten var mest mættende. Vi fik TeeDown nonalkoholic øl, som var god og smagfuld. Gratis vand står til fri afbenyttelse.
 Vi kommer gerne igen.</q>
   <p class="author">- Susanne E. Frederiksen</p>
 </div>
 
 <div class="mySlides">
-    
+
     <img class="anmeldelser-billeder" src="images/oeldre.png" alt="">
     <h3>Glimrende sted for familier</h3>
   <q>Har været her et par gange efterhånden. Et rigtig godt sted for familier. Babystole i caféen og pusleborde på toiletterne. Maden er so-und-so; udmærket uden at være prangende; til gengæld virker det hjemmelavet og børnevenligt (nej, det er ikke en selvfølge på alle byens caféer). Service svinger en smule i tempo, men der er altid smil på læben, og hvor det dejligt med en café, hvor de rent faktisk smiler til gæsten.</q>
@@ -286,7 +256,7 @@ Vi kommer gerne igen.</q>
 </div>
 
 <div class="mySlides">
-    
+
     <img class="anmeldelser-billeder" src="images/student.png" alt="">
     <h3>Morgen komplet - på dansk</h3>
   <q>Super hyggeligt, hurtig betjening og helt i orden morgenkomplet med dejlig filterkaffe. Vi fik en “moderat-” og en “fuldvoksen” morgen-komplet. Begge friske og gode og rigeligt. Tror vi bliver nødt til at komme tilbage og få friskbagte croissants med nougat!
@@ -301,26 +271,55 @@ Vi blev betjent af “Sofies far” og hele oplevelsen var god og ikke en hypet 
 </div>
 
 <div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-    
+
+
+    </section>
+
+    <section>
+
+        <h2>Samarbejdspartner</h2>
+
 
         <div class="flex-samarbejdspartner">
+            
+           
             <img class="partner" src="images/bki-logo.png" alt="Bki logo">
+                
+            
+          
 
             <img class="partner-2" src="images/catering-logo.png" alt="ab catering logo">
+          
+            
+        
+
 
             <img class="partner-2" src="images/k-kompagniet.png" alt="karamel kompagniet">
+                
+        
+         
 
             <img class="partner" src="images/oesterlandsk_logo.png" alt="oesterlandsk logo">
+                
+      
+        
 
             <img class="partner" src="images/we-love-cake-logo.png" alt="we love cake logo">
+                
+        
 
             <img class="partner-2" src="images/kaffeagenterne.png" alt="kaffeagenterne logo">
+                
+          
+      
 
             <img class="partner-2" src="images/cg-logo.png" alt="cg-logo">
+                
+           
 
         </div>
     </section>

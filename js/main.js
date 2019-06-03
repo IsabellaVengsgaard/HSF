@@ -39,6 +39,10 @@ for (var i = 0; i < accordions.length; i++) {
     }
 }
 
+// ---------- Navbar vis/gem burgermenu ---------- //
+
+
+
 
 
 // ---------- default SPA Web App setup ---------- //

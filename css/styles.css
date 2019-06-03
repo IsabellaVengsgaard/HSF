@@ -3,12 +3,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-
     background-image: url(../images/mobile-bg.jpg);
-
-
     background-size: contain;
     background-repeat: repeat-y;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family: montaga;
 }
 
 
@@ -22,13 +26,22 @@ h5 {
 
 }
 
+
+/* G.S. - forside styles */
+
+
+
+#forside img {
+    width: 100%;
+}
+
+
 h2 {
     text-align: center;
 }
 
 
 /* G.S. - navigation styles */
-
 
 .forsideImage {
     width: 100%;
@@ -140,12 +153,6 @@ h2 {
 
 /* G.S. - forsiden styles */
 
-#forside {
-    background-image: url('../images/mobile-bg-sketch.jpg');
-    background-size: contain;
-
-}
-
 /* G.S. - om os styles */
 
 .hovedSection {
@@ -254,37 +261,31 @@ button.accordion:hover {
     display: none;
 }
 
+.buttonUpMenu {
+    display: block;
+    background-color: rgb(116, 1, 42);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* G.S. - booking styles */
 
-/* G.S. - ornament styles */
-#ornament {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    width: 100%;
+#book-img {
+    display: none;
 }
 
-.orn {
-    max-width: 15%;
-}
-
-.orna {
-    max-width: 15%;
-    padding-left: 25%;
-    padding-right: 25%;
-
-    width: 25%;
-}
-
-/* G.S. - End of ornament styles */
-
-.booking {
+#booking {
     border-radius: 5px;
     padding: 20px;
 }
 
-.booking p {
+#booking p {
     font-family: montaga;
 }
 
@@ -296,74 +297,78 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    border-radius: 15px;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
 
-input[type=submit] {
+
+input[type=submit] {}
+
+input[type=send] {
+
     background-color: rgb(116, 1, 42);
     color: white;
-    padding: 10px 40px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 100px;
-    font-size: 14px;
+    border-radius: 35px;
     cursor: pointer;
-    text-align: center;
 }
 
-input[type=submit]:hover {
-    background-color: rgb(116, 1, 42);
-    text-align: center;
-
+input[type=send]:hover {
+    background-color: #45a049;
 }
 
-/* G.S. - End of ornament styles */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
 /* G.S. - anmeldser, nyheder, logoer styles */
 
-
-
 /* Mobil Anmeldelser */
+
 .slideshow-container {
-  position: relative;
-  
+    position: relative;
+
 }
 
 
 .mySlides {
-  display: none;
-  padding: 10px 150px;
-  text-align: center;
+    display: none;
+    padding: 10px 50px;
+    text-align: center;
 }
 
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #3f3838;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #3f3838;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 
 .next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 
@@ -373,23 +378,27 @@ input[type=submit]:hover {
 
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 
-.active, .dot:hover {
-  background-color: #3f3838;
+.active,
+.dot:hover {
+    background-color: #3f3838;
 }
 
 
-q {font-style: italic;}
+q {
+    font-style: italic;
+
+}
 
 
 .author {
@@ -399,58 +408,37 @@ q {font-style: italic;}
 
 .anmeldelser-billeder {
     min-width: 8%;
-  height: auto;
-    
-   
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* Mobil samarbejdspartner*/
-
+/* G.S - Samarbejdspartner*/
 
 .flex-samarbejdspartner {
     padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
 }
 
 .partner {
-    width: 12%;
-    padding: 2%;
-    margin-left: 3%;
+    width: 15%;
+    height: 2%;
+    margin: 3% 5% 0 0;
 }
 
 .partner-2 {
-    width: 45%;
-
-    margin-left: 4%;
+    width: 35%;
+    height: 2%;
+    margin: 4% 2% 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* G.S. - Kontakt styles */
 
 /*Footer*/
+
 #kontakt {
     display: flex;
     flex-wrap: wrap;
@@ -487,6 +475,7 @@ footer-headline {
     margin: 5%;
 }
 
+
 #footerlogo {
     display: none;
 }
@@ -495,14 +484,18 @@ i {
     color: white;
 }
 
+
 a {color: white;}
 
+
 /* Mobile */
+
 @media (min-width:400px) {}
 
 
 
 /* Tablet */
+
 @media (min-width:700px) {
 
     /*styles til menuside - tablet*/
@@ -511,17 +504,6 @@ a {color: white;}
         width: 60%;
         margin: auto;
     }
-
-    .ornamentSection,
-    .ornamentSectionFlip {
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-
-    button.accordion {
-        width: 45%;
-    }
-
 
     /*menu- burger så den stadig er henover flaget*/
     .menuMobildiv {
@@ -533,6 +515,7 @@ a {color: white;}
         margin-left: -10%;
     }
     /* footer - tablet */
+
 
     #kontakt {
         display: flex;
@@ -549,8 +532,48 @@ a {color: white;}
     
 }
 
+    /*menukort styles til tablet*/
+    .accordion-content img {
+        width: 50%;
+    }
+
+
+    /*scroll up button - menu kort*/
+    .buttonUpMenu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(116, 1, 42);
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    /*styles til booking - tablet*/
+
+
+
+
+
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    #book-img {
+        background-size: contain;
+        display: flex;
+        width: 50%;
+        padding-left: 10%;
+    }
+}
 
 /* Desktop */
+
 @media (min-width:1020px) {
 
     body {
@@ -561,7 +584,52 @@ a {color: white;}
 
     /*navbar til mobil styles*/
     img.logoFlex {
-        margin-left: -5%;
+        display: none;
+    }
+
+    .navbar {
+        float: left;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        padding-top: 1%;
+        padding-left: 5%;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        padding-top: 2%;
+        color: white;
+        list-style-type: none;
+        display: inline-block;
+    }
+    .navbar ul li a {
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
+    .logonav {
+        width: 7%;
+        padding-right: 30%;
+        float: left;
+        position: relative;
+        z-index: 1;
+        top: 0;
+    }
+
+    .forsideImage {
+        display: none;
+    }
+
+    .storforside {
+        width: 100%;
+    }
+
+
+    .onTop {
+        display: none;
     }
 
     /*Om os - desktop*/
@@ -629,10 +697,6 @@ a {color: white;}
         flex-direction: row;
     }
 
-    #kageOgis {
-        flex-direction: row;
-    }
-
     .morgenMadImg {
         width: 350px;
         margin-left: 5%;
@@ -641,20 +705,113 @@ a {color: white;}
     .menuFlexContainer {
         display: flex;
         align-items: flex-start;
-        justify-content: space-around;
+    }
+
+    .menuContainer2 {
+        display: flex;
+        align-items: baseline;
+
     }
 
 
     /*knap til at fører en tilbage til toppen af menu kortet*/
     .buttonUpMenu {
-        align-self: flex-end;
-        background-color: wheat;
+        display: block;
+        background-color: rgb(116, 1, 42);
         padding: 20px;
+        width: 250px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 20px;
     }
+
 
     
     /* footer - desktop */
 
+
+
+    /*styles til booking - desktop*/
+
+    #booking {
+        display: flex;
+        border-radius: 5px;
+        padding: 20px;
+        overflow: hidden;
+        margin-left: 15%;
+    }
+
+    #book-img {
+        padding-left: 25%;
+    }
+
+
+    .ornamentSection,
+    .ornamentSectionFlip {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    button.accordion {
+        width: 45%;
+    }
+
+    /* anmeldelser - desktop */
+    .mySlides {
+        padding: 10px 300px;
+
+    }
+
+    .next {
+        margin-right: 10%;
+}
+    .prev {
+        margin-left: 10%;
+    }
+
+    q {
+        font-style: italic;
+
+    }
+
+
+    .author {
+        color: #3f3838;
+        font-weight: bold;
+    }
+
+    .anmeldelser-billeder {
+        min-width: 8%;
+    }
+
+    /* samarbejdspartner - desktop */
+
+
+.flex-samarbejdspartner {
+    padding: 0 10%;
+    flex-direction: row;
+}
+
+.partner {
+    width: 4%;
+    margin-top: 0;
+}
+
+.partner-2 {
+    width: 15%;
+    margin-top: 0;
+
+
+}
+
+
+
+
+
+
+
+   
+    /* footer - desktop */
     #kontakt {
         display: flex;
         flex-wrap: wrap;
