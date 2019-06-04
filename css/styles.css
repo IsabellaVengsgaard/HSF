@@ -671,7 +671,7 @@ a {color: white;}
 	.forside-buttons {
 		position: absolute;
 		margin-top: -20%;
-		margin-left: 40%;
+		margin-left: 39%;
 	}
 	
 	.button-1 {
@@ -690,19 +690,18 @@ a {color: white;}
 	}
 
 	.button-1:hover {
-		background-color: aqua;
-		color: white;
+		text-decoration: underline;
 	}
 
 
 	.button-2 {
 		display: inline-block;
-		border: 2px solid #74012a;
-		background-color: transparent;
+		background-color: #74012a;
+		border: none;
 		border-radius: 10px;
+		margin-right: 40px;
 		color: white;
-		text-shadow: 2px 1px black;
-		padding: 16px 32px;
+		padding: 16px 55px;
 		text-align: center;
 		text-decoration: none;
 		font-size: 16px;
@@ -711,7 +710,7 @@ a {color: white;}
 	}
 
 	.button-2:hover {
-		background-color: #74012a;
+		text-decoration: underline;
 		
 	}
 	
