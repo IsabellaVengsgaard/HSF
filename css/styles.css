@@ -59,6 +59,10 @@ h2 {
 	margin-top: -23%;
 }
 
+.ornament-desktop-forside {
+	display: none;
+}
+
 
 /* G.S. - navigation styles */
 
@@ -194,6 +198,10 @@ h2 {
     color: black;
     text-align: center;
 }
+
+.omos-p {
+		line-height: 1.6;
+	}
 
 #video {
     width: 100%;
@@ -721,12 +729,15 @@ a {color: white;}
     }
 	
 	.ornament-forside {
+	display: none;
+}
+.ornament-desktop-forside {
+	display: block;
 	width: 30%;
 	left: 35%;
 	position: absolute;
 	margin-top: -7%;
 }
-
 	
 	
 	
@@ -739,6 +750,7 @@ a {color: white;}
         align-items: flex-start;
         width: 100%;
     }
+	
 
 
     .video-mask {
