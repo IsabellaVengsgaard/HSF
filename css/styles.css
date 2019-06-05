@@ -198,18 +198,14 @@ h2 {
     color: black;
     text-align: center;
 }
-
 .omos-p {
-		line-height: 1.6;
-	}
+	line-height: 1.6;
+	text-align: center;
+	margin: 0 50px 20px 50px;
+}
 
 #video {
     width: 100%;
-}
-
-#omos p {
-    text-align: center;
-    margin: 50px;
 }
 
 /* G.S. - menu styles */
@@ -217,6 +213,8 @@ h2 {
 .ornamentSection {
     display: flex;
     justify-content: space-between;
+	margin-bottom: -50px;
+	margin-top: -30px;
 }
 
 .ornamentSection img {
@@ -226,6 +224,7 @@ h2 {
 .ornamentSection h2 {
     align-self: center;
     font-size: 30px !important;
+	
 }
 
 .ornamentSectionFlip {
@@ -238,8 +237,9 @@ h2 {
     width: 70px;
 }
 
-#ornamentBlomst {
+.ornamentBlomst {
     width: 50px;
+	
 }
 
 button.accordion {
@@ -777,6 +777,7 @@ a {color: white;}
 
     #menusidenDesktop {
         display: block;
+		
     }
 
     #menusidenDesktop h3 {
@@ -816,6 +817,8 @@ a {color: white;}
     .menuFlexContainer {
         display: flex;
         align-items: flex-start;
+		margin-left: 230px;
+		margin-top: 30px;
     }
 
     .menuContainer2 {
