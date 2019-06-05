@@ -157,6 +157,39 @@ h5 {
     font-size: 60px;
 }
 
+.grid-container {
+        display: grid;
+        width: 100%;
+
+}
+      .wp-image-30 {
+        width: 100%;
+
+        }
+
+     .wp-image-46 {
+        width: 100%;
+
+        }
+
+    #grid-left {
+        text-align: center;
+    }
+
+.grid-container>article{
+ text-align: center;
+}
+
+.grid-container>article p{
+ text-align: center;
+ padding-left: 10%;
+ padding-right: 10%;
+    }
+.grid-container>h3 {
+  text-align: center;
+}
+
+
 @media screen and (max-height: 450px) {
     .overlay {
         overflow-y: auto;
@@ -176,6 +209,10 @@ h5 {
 
 /* G.S. - forsiden styles */
 
+/* G.S. - Headless styles */
+ #grid-left {
+        text-align: center;
+    }
 /* G.S. - om os styles */
 
 .hovedSection {
@@ -217,7 +254,7 @@ h5 {
 .ornamentSection h2 {
     align-self: center;
     font-size: 30px !important;
-	
+
 }
 
 .ornamentSectionFlip {
@@ -232,7 +269,7 @@ h5 {
 
 .ornamentBlomst {
     width: 50px;
-	
+
 }
 
 button.accordion {
@@ -644,7 +681,7 @@ a {color: white;}
         display: flex;
         width: 70%;
 		padding-left: 10%;
-        
+
     }
 
 
@@ -658,9 +695,11 @@ a {color: white;}
         background-repeat: repeat-y;
     }
 
-    
-	
-	
+
+
+
+
+
 	.hsf-title {
 		font-size: 40px;
 		margin-left: 32%;
@@ -668,15 +707,23 @@ a {color: white;}
 	}
 
     .navbar {
+
+        display: block;
+
  		display: flex;
 		justify-content: space-between;
 		width: 90%;
+
         float: left;
         overflow: hidden;
         position: absolute;
         z-index: 3;
         top: 0;
         margin-top: 1%;
+
+        margin-left: 5%;
+        width: 100%;
+
     }
 
     .navbar ul li {
@@ -691,12 +738,12 @@ a {color: white;}
         padding: 0.5em 1em;
 		font-size: 20px;
         text-decoration: none;
-		
+
     }
 	img.logoFlex {
         display: none;
     }
-	
+
     .logonav {
         width: 20%;
         float: left;
@@ -709,20 +756,26 @@ a {color: white;}
         display: none;
     }
 
+    .front-tekst {
+        position: relative;
+        z-index: 1;
+        color: white;
+
+    }
     .storforside {
 		display:block;
 		width: 100%;
 		height: 100vh;
-	
+
     }
-	
-	
+
+
 	.forside-buttons {
 		position: absolute;
 		margin-top: -20%;
 		margin-left: 39%;
 	}
-	
+
 	.button-1 {
 		display: inline-block;
 		background-color: #74012a;
@@ -760,13 +813,20 @@ a {color: white;}
 
 	.button-2:hover {
 		text-decoration: underline;
-		
+
 	}
-	
+
+
 	.onTop {
+
+
+
+
+    .onTop {
+
         display: none;
     }
-	
+
 	.ornament-forside {
 	display: none;
 }
@@ -777,9 +837,9 @@ a {color: white;}
 	position: absolute;
 	margin-top: -7%;
 }
-	
-	
-	
+
+
+
 
     /*Om os - desktop*/
     #omsalonen {
@@ -789,7 +849,7 @@ a {color: white;}
         align-items: flex-start;
         width: 100%;
     }
-	
+
 
 
     .video-mask {
@@ -820,7 +880,7 @@ a {color: white;}
 
     #menusidenDesktop {
         display: block;
-		
+
     }
 
     #menusidenDesktop h3 {
@@ -894,22 +954,26 @@ a {color: white;}
         display: flex;
         border-radius: 5px;
         overflow: hidden;
+
         margin-left: 15%;
-		
+
+
+        margin-left: 10%;
+
     }
 
     #book-img {
         padding-left: 5%;
 		margin-right: 80px;
     }
-	
+
 	.book-tekst {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
 		width: 37%;
 	}
-	
+
 	.book-ornament {
 		width: 10%;
 		display: block;
@@ -917,7 +981,7 @@ a {color: white;}
 		margin-top: 110px;
 		margin-bottom: 20px;
 	}
-	
+
 	.book-p {
 		width: 74%;
 		display: block;
@@ -926,7 +990,7 @@ a {color: white;}
 		line-height: 1.6;
 		text-align: center;
 	}
-	
+
 
 
     .ornamentSection,
@@ -939,15 +1003,36 @@ a {color: white;}
         width: 45%;
     }
 
+
 	/* Headless CMS - desktop */
+
+
+
+	/* Headless CMS - desktop */
+
+       /* Headless CMS - desktop */
+
+
 
     .grid-container {
         display: grid;
         padding: 10px;
 
+
 }
       .wp-image-30 {
         width: 50%;
+
+        width: 100%;
+
+
+}
+      .wp-image-30 {
+        width: 50%;
+
+
+
+
         }
 
      .wp-image-46 {
@@ -969,10 +1054,12 @@ a {color: white;}
 .grid-container>h3 {
   text-align: center;
 }
-	
-	
-	
-	
+
+
+
+
+
+
     /* anmeldelser - desktop */
     .mySlides {
     	padding: 10px 300px;
@@ -986,7 +1073,7 @@ a {color: white;}
     .prev {
     	margin-left: 10%;
     }
-	
+
 	.feedback-title {
 		font-size: 17px;
 	}
@@ -1011,19 +1098,19 @@ a {color: white;}
 	.partner-content {
 		padding-top: 25px;
 	}
-	
+
 	#partner-h2 {
 		margin-top: 20px;
 	}
-	
+
 	.partner-bg {
 		position: absolute;
 		z-index: -20;
 		width: 100%;
 		height: 26vh;
-		
+
 	}
-	
+
 .flex-samarbejdspartner {
     padding: 0 10%;
     flex-direction: row;
@@ -1054,11 +1141,11 @@ a {color: white;}
         display: block;
         margin: 40px 0 0 0;
     }
-	
+
 	#kontakt p {
     font-size: 14px;
 }
-	
-	
-	
+
+
+
 }
