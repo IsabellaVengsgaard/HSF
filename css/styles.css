@@ -359,6 +359,23 @@ input[type=send]:hover {
     padding: 20px;
 }
 
+.booking-knap {
+	display: block;
+	margin: auto;
+	background-color: #74012a;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 16px 30px;;
+	cursor: pointer;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+}
+
+
+
 /* G.S. - anmeldser, nyheder, logoer styles */
 
 /* Mobil Anmeldelser */
@@ -595,15 +612,15 @@ a {color: white;}
     #booking {
         display: flex;
         border-radius: 5px;
-        padding: 20px;
         overflow: hidden;
     }
 
     #book-img {
         background-size: contain;
         display: flex;
-        width: 50%;
-        padding-left: 10%;
+        width: 70%;
+		padding-left: 10%;
+        
     }
 
 
@@ -850,14 +867,40 @@ a {color: white;}
     #booking {
         display: flex;
         border-radius: 5px;
-        padding: 20px;
         overflow: hidden;
-        margin-left: 15%;
+        margin-left: 10%;
+		
     }
 
     #book-img {
-        padding-left: 25%;
+        padding-left: 5%;
+		margin-right: 80px;
     }
+	
+	.book-tekst {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 37%;
+	}
+	
+	.book-ornament {
+		width: 10%;
+		display: block;
+		margin: auto;
+		margin-top: 110px;
+		margin-bottom: 20px;
+	}
+	
+	.book-p {
+		width: 74%;
+		display: block;
+		margin: auto;
+		font-size: 25px;
+		line-height: 1.6;
+		text-align: center;
+	}
+	
 
 
     .ornamentSection,
