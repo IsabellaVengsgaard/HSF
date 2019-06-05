@@ -367,7 +367,38 @@ input[type=send]:hover {
 	align-items: center;
 }
 
+/* Headless CMS - mobil */
 
+    .grid-container {
+        display: grid;
+        padding: 10px;
+
+}
+      .wp-image-30 {
+        width: 100%;
+        }
+
+     .wp-image-46 {
+        width: 100%;
+
+        }
+
+    #grid-left {
+        text-align: center;
+    }
+
+.grid-container>article{
+ text-align: center;
+}
+
+.grid-container>article p{
+ text-align: center;
+ padding-left: 10%;
+ padding-right: 10%;
+    }
+.grid-container>h3 {
+  text-align: center;
+}
 
 /* G.S. - anmeldser, nyheder, logoer styles */
 
@@ -602,11 +633,7 @@ a {color: white;}
 
     /*styles til booking - tablet*/
 
-
-
-
-
-    #booking {
+        #booking {
         display: flex;
         border-radius: 5px;
         overflow: hidden;
@@ -736,9 +763,7 @@ a {color: white;}
 		
 	}
 	
-	
-	
-    .onTop {
+	.onTop {
         display: none;
     }
 	
@@ -768,13 +793,17 @@ a {color: white;}
 
 
     .video-mask {
-        width: 750px;
+        width: 100%;
+        display: block;
+        margin: auto;
         border-radius: 30px;
         overflow: hidden;
     }
 
 
     #video {
+        display: block;
+        margin: auto;
         display: flex;
         justify-content: center;
         width: 650px;
@@ -865,7 +894,7 @@ a {color: white;}
         display: flex;
         border-radius: 5px;
         overflow: hidden;
-        margin-left: 10%;
+        margin-left: 15%;
 		
     }
 
@@ -910,6 +939,40 @@ a {color: white;}
         width: 45%;
     }
 
+	/* Headless CMS - desktop */
+
+    .grid-container {
+        display: grid;
+        padding: 10px;
+
+}
+      .wp-image-30 {
+        width: 50%;
+        }
+
+     .wp-image-46 {
+        width: 50%;
+
+        }
+
+    #grid-left {
+        text-align: center;
+    }
+
+.grid-container>article{
+ text-align: center;
+}
+
+.grid-container>article p{
+ text-align: center;
+    }
+.grid-container>h3 {
+  text-align: center;
+}
+	
+	
+	
+	
     /* anmeldelser - desktop */
     .mySlides {
     	padding: 10px 300px;
